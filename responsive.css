@@ -1,0 +1,263 @@
+@media screen and (max-width: 1000px) {
+
+
+    main {
+        background-image: url(Images/1700584738-bf-bathroom-bundle_mobile-1.avif);
+        height: 87vh;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .flex-flow {
+        padding: 30px 15px;
+        white-space: nowrap;
+        gap: 1rem;
+    }
+
+    .find-your-local-store {
+        width: 25%;
+    }
+
+    .planet-heading-container {
+        padding: 0;
+    }
+
+    .display-none {
+        display: none;
+    }
+
+    .display-none-2 {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 950px) {
+
+    .nav-get-started-btn,
+    .navbar-user-button,
+    .navbar-ul {
+        display: none;
+    }
+
+    .display-none {
+        display: none;
+    }
+
+    .navbar {
+        justify-content: center;
+        position: relative;
+        align-items: center;
+    }
+
+    .flex-item-1 {
+        position: absolute;
+    }
+
+    .wild-logo {
+        margin-top: 0;
+        width: 130px;
+    }
+
+    .nav-menu-button {
+        position: absolute;
+        left: 0;
+        display: inline;
+    }
+
+    .flex-flow {
+        text-align: center;
+        gap: 2rem;
+    }
+
+    .header-content {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .header-br {
+        display: block;
+    }
+
+    .header-content-h1 {
+        font-size: 38px;
+        line-height: 43px;
+        letter-spacing: -0.848px;
+    }
+
+
+
+    .header-content-para {
+        font-size: 18px;
+        line-height: 32px;
+        color: white;
+        font-family: FaturaPt;
+        font-weight: 500;
+        margin-top: 0.5rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .header-content-buttons {
+        flex-direction: column;
+    }
+
+    .header-content-deodorant-btn,
+    .header-content-body-wash-btn {
+        padding: 14px 20px;
+    }
+
+    .block-line {
+        display: block;
+        text-align: center;
+    }
+
+    .trust-pilot-main-line {
+        display: inline;
+    }
+
+    .bold {
+        color: black;
+        font-family: FaturaPt;
+        font-weight: 500;
+        margin: 0;
+    }
+
+    .trust-pilot-logo {
+        width: 78px;
+        margin-left: -4px;
+        margin-bottom: -1px;
+    }
+
+    .excellent {
+        margin: 0pc 8px;
+        margin-bottom: 0pc;
+        margin-bottom: 3px;
+        width: 74px;
+    }
+
+    .how-it-works-video {
+        border-radius: 21px;
+        overflow: hidden;
+    }
+
+    .how-to-use {
+        position: static;
+        width: 100%;
+    }
+
+    .deodorant-button {
+        top: -63px;
+        bottom: auto;
+        left: 200px;
+        padding: 40px;
+        border: 1px solid #006e37;
+    }
+
+    .body-wash-button {
+        top: -63px;
+        bottom: auto;
+        left: 475px;
+        padding: 40px;
+
+    }
+
+    .flex-flow-3 {
+        flex-wrap: wrap;
+    }
+
+    .footer-col-2 {
+        gap: 10rem;
+    }
+
+    .how-it-works-video {
+        position: relative;
+        overflow: hidden;
+        padding-top: 56.25%;
+    }
+
+    .how-it-works-video video {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: auto;
+    }
+
+    .how-it-works-buttons {
+        display: flex;
+        gap: 1rem;
+        top: 0%;
+        left: 50%;
+        transform: translateX(-50%);
+        position: absolute;
+        white-space: nowrap;
+
+    }
+
+    .deodorant-button,
+    .body-wash-button {
+
+        padding: 5vw 5vw;
+
+        position: static;
+    }
+
+    .flex-container {
+        padding: 0 20px;
+    }
+
+    .qualities-section h1 {
+        font-size: 24px;
+    }
+
+    .how-it-works-heading {
+        font-size: 48px;
+    }
+
+    .instruction-heading {
+        padding: 0;
+    }
+
+    .instruction-para {
+        padding: 20px 0;
+    }
+
+    .flex-cards {
+        transform: translateX(280px);
+    }
+
+    .company-logo {
+        width: 80px;
+    }
+    .responsive-16-px{
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .responsive-18-px{
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .responsive-24-px{
+        font-size: 24px;
+    }
+    .shopping-section{
+        white-space: wrap;
+        padding: 0 15px;
+    }
+    .responsive-div{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .planet-heading{
+        font-size: 42px;
+        line-height: 48px;
+    }
+    .bamboo-refills{
+        padding: 2rem 0;
+    }
+    .go-wild-buttons{
+        flex-direction: column;
+    }
+}
+
+@media screen and(max-width: 762px) {}

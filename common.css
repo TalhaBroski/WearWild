@@ -1,0 +1,316 @@
+@font-face {
+    font-family: FaturaPt;
+    src: url(Fonts/FaruraPt//FuturaCyrillicLight.ttf);
+    font-weight: 300;
+}
+@font-face {
+    font-family: FaturaPt;
+    src: url(Fonts/FaruraPt/FuturaCyrillicBook.ttf);
+    font-weight: 400;
+}
+@font-face {
+    font-family: FaturaPt;
+    src: url(Fonts/FaruraPt/FuturaCyrillicDemi.ttf);
+    font-weight: 500;
+}
+@font-face {
+    font-family: FaturaPt;
+    src: url(Fonts/FaruraPt/FuturaCyrillicBold.ttf);
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: Gelica;
+    src: url(Fonts/Gelica/Bold\ Regular.ttf);
+    font-weight: 400;
+}
+@font-face {
+    font-family: Gelica;
+    src: url(Fonts/Gelica/Bogue-Semibold\ Regular.ttf);
+    font-weight: 600;
+}
+@font-face {
+    font-family: Gelica;
+    src: url(Fonts/Gelica/Bogue-Extrabold\ Regular.ttf);
+    font-weight: 700;
+}
+
+
+/* Utility Classes */
+
+
+
+.get-started-body-wash{
+    display: inline-block;
+    position: relative;
+    text-decoration: none;
+    font-family: FaturaPt;
+    font-weight: 500;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.4rem;
+    transition: all 0.3s ease;
+}
+
+.get-started-body-wash::before{
+    border-radius: 8px;
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #FF6134;
+    z-index: -1;
+    transform-origin: center;
+    transform: scale(1);
+    transition: all 0.3s ease;
+}
+.get-started-body-wash:hover::before{
+    transform: scale(1.05);
+}
+.get-started-deodorant{
+    display: inline-block;
+    position: relative;
+    text-decoration: none;
+    font-family: FaturaPt;
+    font-weight: 500;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.4rem;
+    transition: all 0.3s ease;
+}
+.get-started-deodorant::before{
+    border-radius: 8px;
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #1D7F75;
+    z-index: -1;
+    transform-origin: center;
+    transform: scale(1);
+    transition: all 0.3s ease;
+}
+.get-started-deodorant:hover::before{
+    transform: scale(1.05);
+}
+
+
+.get-started{
+    display: inline-block;
+    position: relative;
+    padding: 18px 25px;
+    color: #000000;
+    text-decoration: none;
+    font-family: FaturaPt;
+    font-weight: 500;
+
+    text-transform: uppercase;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.4rem;
+    font-size: 15px;
+    line-height: 20px;
+    transition: all 0.3s ease;
+}
+.get-started::before{
+    border-radius: 8px;
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #F1EEE4;
+    z-index: -1;
+    transform-origin: center;
+    transform: scale(1);
+    transition: all 0.3s ease;
+}
+.get-started:hover::before{
+    transform: scale(1.05);
+}
+.display-none-2{
+    display: none;
+}
+.planet-text{
+    position: relative;
+}
+.instrustion-button {
+    display: inline-block;
+    position: relative;
+    padding: 18px 25px;
+    color: #ffffff;
+    text-decoration: none;
+    font-family: FaturaPt;
+    font-weight: 500;
+
+    text-transform: uppercase;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.4rem;
+    font-size: 15px;
+    line-height: 20px;
+    transition: all 0.3s ease;
+}
+.instrustion-button::before{
+    border-radius: 8px;
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #1D7F75;
+    z-index: -1;
+    transform-origin: center;
+    transform: scale(1);
+    transition: all 0.3s ease;
+}
+.instrustion-button:hover::before{
+    transform: scale(1.05);
+}
+.header-content-deodorant-btn,
+.header-content-body-wash-btn{
+    display: inline-block;
+    position: relative;
+    padding: 18px 25px;
+    color: #000000;
+    text-decoration: none;
+    font-family: FaturaPt;
+    font-weight: 500;
+
+    text-transform: uppercase;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.4rem;
+    font-size: 15px;
+    line-height: 20px;
+    transition: all 0.3s ease;
+
+}
+.shop-all{
+    padding: 10px 16px;
+}
+
+.header-content-deodorant-btn::before,
+.header-content-body-wash-btn::before {
+    border-radius: 8px;
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #00C494;
+    z-index: -1;
+    transform-origin: center;
+    transform: scale(1);
+    transition: all 0.3s ease;
+}
+.header-content-deodorant-btn:hover::before,
+.header-content-body-wash-btn:hover::before {
+    transform: scale(1.05);
+    
+}
+
+.header-content-body-wash-btn::before{
+    background-color: #fff;
+}
+
+.arrow-head-anim:hover .button-arrow-heads{
+transform: translateX(5px);
+}
+.button-arrow-heads{
+    transition: all 0.3s ease;
+    
+}
+.hover-button-1 {
+    display: inline-block;
+    position: relative;
+    padding: 10px 18px;
+    color: #000000;
+    text-decoration: none;
+    font-family: FaturaPt;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin: 0 20px;
+    font-size: 15px;
+    line-height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.4rem;
+    font-size: 15px;
+    line-height: 20px;
+}
+.hover-button-1::before {
+    border-radius: 8px;
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ffffff;
+    z-index: -1;
+    transform-origin: center;
+    transform: scale(1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.hover-button-1:hover::before {
+    transform: scale(1.05);
+    
+}
+
+
+
+.hover-button {
+    display: inline-block;
+    position: relative;
+    padding: 10px 18px;
+    color: #000000;
+    text-decoration: none;
+    font-family: FaturaPt;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin: 0 20px;
+    font-size: 15px;
+    line-height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hover-button::before {
+    border-radius: 8px;
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ffffff;
+    z-index: -1;
+    transform-origin: center;
+    transform: scale(1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.hover-button:hover::before {
+    transform: scale(1.05);
+}

@@ -1,0 +1,150 @@
+@import url(common.css);
+@import url(stylesheet.css);
+
+body {
+    padding: 0 70px;
+}
+
+.navbar {
+    margin-top: 47px;
+}
+
+.wild-logo {
+    transform: translateY(-9px);
+}
+
+.navbar-ul img {
+    color: black;
+}
+
+.navbar-ul {
+    gap: 27px;
+}
+
+.nav-arrow {
+    margin-left: 5px;
+}
+
+.navbar-a {
+    color: rgb(0, 0, 0);
+    height: none;
+}
+
+.navbar-user-button,
+.navbar-cart-button,
+.nav-menu-button {
+    background-color: #F1EEE4;
+}
+
+.nav-get-started-btn::before {
+    background-color: #F1EEE4;
+}
+
+.bundle-heading {
+    font-size: 88px;
+    line-height: 96px;
+    color: #232323;
+    font-family: Gelica;
+    font-weight: 600;
+}
+
+header {
+    text-align: center;
+}
+
+.all-btn,
+.body-wash-button-2,
+.deodorant-btn {
+    font-size: 15px;
+    line-height: 20px;
+    font-family: FaturaPt;
+    font-weight: 500;
+
+}
+
+
+
+.flex-flow-4 {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+.all-btn,
+.body-wash-button-2,
+.deodorant-btn {
+    font-size: 15px;
+    line-height: 20px;
+    font-family: FaturaPt;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding: 10px 16px;
+    border-radius: 7px;
+    margin: 0;
+}
+
+.body-wash-button-2::before,
+.deodorant-btn::before {
+    background-color: #F1EEE4;
+}
+
+.all-btn::before {
+    background-color: #FFDE4B;
+}
+
+.bundle-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.bundle-para {
+    font-size: 20px;
+    line-height: 32px;
+    color: #232323;
+    font-family: FaturaPt;
+    font-weight: 300;
+}
+
+.bundle-container {
+    gap: 3rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.bundle-cards {
+    padding: 0;
+    gap: 1.1rem;
+    transform: translateX(-32px);
+}
+
+.bottle-for-life {
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    white-space: nowrap;
+}
+
+.cards-2 {
+    padding: 0;
+    transform: translateX(-30px);
+}
+
+.shopping-card {
+    width: min-content;
+    height: 400px;
+    cursor: pointer;
+}
+
+.shopping-cards {
+    padding: 0;
+
+    transform: translateX(-30px);
+    gap: 2.2em;
+    /* flex-wrap: wrap; */
+    margin-bottom: 3rem;
+}
+.top-label{
+    left: -12%;
+}
+
