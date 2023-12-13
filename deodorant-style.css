@@ -138,13 +138,80 @@ header {
 
 .shopping-cards {
     padding: 0;
-
+    margin-left: 1rem;
     transform: translateX(-30px);
     gap: 2.2em;
     /* flex-wrap: wrap; */
     margin-bottom: 3rem;
 }
-.top-label{
+
+.top-label {
     left: -12%;
 }
 
+.card-heading {
+    font-size: 38px;
+    line-height: 48px;
+    color: #000000;
+    font-family: Gelica;
+    font-weight: 600;
+    text-align: center;
+}
+
+.card-para-bundle {
+    font-size: 18px;
+    line-height: 28px;
+    color: #4f4f4f;
+    font-family: FaturaPt;
+    font-weight: Light;
+    text-align: center;
+}
+
+.card-content {
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+    margin: 0 7.38rem;
+    white-space: nowrap;
+    align-items: center;
+}
+
+.sold-out {
+    opacity: 0.5;
+
+}
+
+.card-tag {
+    font-size: 11px;
+    line-height: 17px;
+    text-align: center;
+    color: #232323;
+    font-family: FaturaPt;
+    font-weight: 500;
+    background-color: white;
+    border: 2px solid #F1EEE4;
+    display: flex;
+    justify-content: center;
+    margin: 0 65px;
+    padding: 2px 1px;
+    border-radius: 5px;
+}
+
+.bundle-get-started-btn {
+    font-size: 15px;
+    line-height: 20px;
+    font-family: FaturaPt;
+    background-color: #1D7F75;
+    color: white;
+    padding: 18px 25px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    border-radius: 10px;
+    z-index: 11;
+    perspective: 100px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-top: 0.5rem;
+}

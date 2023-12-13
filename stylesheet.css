@@ -295,6 +295,7 @@ span {
 .trust-pilot-main-line {
     font-family: sans-serif;
     display: flex;
+    justify-content: center;
     align-items: center;
     font-size: 15px;
     margin-top: 3rem;
@@ -440,6 +441,9 @@ span {
 }
 
 .display-none-5 {
+    display: inline;
+}
+.responsive{
     display: none;
 }
 
@@ -501,6 +505,7 @@ span {
     border-radius: 10px;
     z-index: 11;
     perspective: 100px;
+    font-weight: 500;
 }
 
 .how-it-works-buttons {
@@ -1012,6 +1017,7 @@ h6 {
 .shopping-img {
     width: 165px;
     border-radius: 20px;
+    height: 210px;
 }
 
 .product-name {

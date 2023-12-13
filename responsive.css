@@ -29,6 +29,12 @@
     .display-none-2 {
         display: block;
     }
+    .display-none-5 {
+        display: inline;
+    }
+    .responsive{
+        display: inline;
+    }
 }
 
 @media screen and (max-width: 950px) {
@@ -260,4 +266,3 @@
     }
 }
 
-@media screen and(max-width: 762px) {}
