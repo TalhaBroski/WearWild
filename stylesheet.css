@@ -82,7 +82,7 @@ button {
     right: 4rem;
 }
 
-main {
+.main-page-main {
     background-image: url(Images/MainBc.png);
     height: 85vh;
     background-repeat: no-repeat;
@@ -145,12 +145,15 @@ main {
 .navbar-ul:hover .navbar-a:not(:hover) {
     opacity: 0.5;
 }
-.footer-ul:hover .footer-a:not(:hover){
+
+.footer-ul:hover .footer-a:not(:hover) {
     opacity: 0.5;
 }
-.footer-lower-ul:hover .footer-lower-a:not(:hover){
+
+.footer-lower-ul:hover .footer-lower-a:not(:hover) {
     opacity: 0.5;
 }
+
 .arrow-head-down {
     margin-left: 5px;
 }
@@ -443,7 +446,8 @@ span {
 .display-none-5 {
     display: inline;
 }
-.responsive{
+
+.responsive {
     display: none;
 }
 
@@ -763,6 +767,10 @@ h6 {
 
 /* Planet Refill */
 .planet-free {
+    display: flex;
+    gap: 3rem;
+    flex-direction: column;
+    margin-top: 4rem;
     margin-bottom: 10rem;
 }
 
@@ -775,6 +783,10 @@ h6 {
     width: 256px;
     right: 782px;
     top: -92px;
+}
+
+.go-wild {
+    right: 730px;
 }
 
 .planet-heading {
@@ -794,7 +806,6 @@ h6 {
     text-align: center;
     font-family: FaturaPt;
     font-weight: 300;
-    padding: 5rem 0;
 }
 
 .planet-get-started-button {
@@ -918,6 +929,7 @@ h6 {
 .shopping-card {
     text-align: center;
     position: relative;
+    height: 395px;
 }
 
 .product-name,
@@ -1117,6 +1129,10 @@ h6 {
     justify-content: center;
     align-items: center;
 
+}
+
+.img-text-container {
+    position: relative;
 }
 
 .get-started-deodorant,
@@ -1365,8 +1381,8 @@ h6 {
 
 .footer-main-col a {
     font-family: FaturaPt;
-    font-weight: 500;
-    color: #4b4b4b;
+    font-weight: 400;
+    color: #232323;
     font-size: 18px;
     line-height: 28px;
     text-decoration: none;

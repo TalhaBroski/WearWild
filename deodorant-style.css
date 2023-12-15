@@ -1,7 +1,7 @@
 @import url(common.css);
 @import url(stylesheet.css);
 
-body {
+main {
     padding: 0 70px;
 }
 
@@ -214,4 +214,28 @@ header {
     font-weight: 500;
     text-transform: uppercase;
     margin-top: 0.5rem;
+}
+
+
+/* Need Refills Section */
+
+
+.need-refills-section{
+    display: flex;
+    gap: 3rem;
+    flex-direction: column;
+    margin-top: 10rem;
+    margin-bottom: 8rem;
+}
+.need-refills-section{
+    padding-bottom: 10rem;
+}
+.need-refills{
+   right: 570px; 
+}
+.need-refills-text {
+    color: black;
+}
+.need-refills-btn{
+    padding: 18px 25px;
 }

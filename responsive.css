@@ -29,11 +29,14 @@
     .display-none-2 {
         display: block;
     }
+
     .display-none-5 {
-        display: inline;
+        display: none;
     }
-    .responsive{
-        display: inline;
+
+    .responsive {
+        display: flex;
+        justify-content: center;
     }
 }
 
@@ -200,6 +203,25 @@
 
     }
 
+    .made-from-nature {
+        position: absolute;
+        bottom: -45px;
+        font-family: Gelica;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 32px;
+        border: 1px solid #F1EEE4;
+        padding: 19px 22px;
+        background-color: #fff;
+        border-radius: 20px;
+        white-space: nowrap;
+    }
+
+    .ingredients-section {
+        padding: 20px;
+        flex-direction: column;
+    }
+
     .deodorant-button,
     .body-wash-button {
 
@@ -235,34 +257,41 @@
     .company-logo {
         width: 80px;
     }
-    .responsive-16-px{
+
+    .responsive-16-px {
         font-size: 16px;
         line-height: 26px;
     }
-    .responsive-18-px{
+
+    .responsive-18-px {
         font-size: 18px;
         line-height: 28px;
     }
-    .responsive-24-px{
+
+    .responsive-24-px {
         font-size: 24px;
     }
-    .shopping-section{
+
+    .shopping-section {
         white-space: wrap;
         padding: 0 15px;
     }
-    .responsive-div{
+
+    .responsive-div {
         flex-direction: column;
         justify-content: center;
     }
-    .planet-heading{
+
+    .planet-heading {
         font-size: 42px;
         line-height: 48px;
     }
-    .bamboo-refills{
+
+    .bamboo-refills {
         padding: 2rem 0;
     }
-    .go-wild-buttons{
+
+    .go-wild-buttons {
         flex-direction: column;
     }
 }
-
