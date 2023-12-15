@@ -45,7 +45,7 @@ main {
     line-height: 96px;
     color: #232323;
     font-family: Gelica;
-    font-weight: 600;
+    font-weight: 400;
 }
 
 header {
@@ -82,7 +82,9 @@ header {
     border-radius: 7px;
     margin: 0;
 }
-
+.all-btn{
+    background-color: #FFDE4B;
+}
 .body-wash-button-2::before,
 .deodorant-btn::before {
     background-color: #F1EEE4;
@@ -95,21 +97,22 @@ header {
 .bundle-buttons {
     display: flex;
     justify-content: center;
-    gap: 1rem;
+    gap: 0.6rem;
 }
 
 .bundle-para {
     font-size: 20px;
     line-height: 32px;
-    color: #232323;
+    color: #4f4f4f;
     font-family: FaturaPt;
-    font-weight: 300;
+    font-weight: 400;
 }
 
 .bundle-container {
     gap: 3rem;
     display: flex;
     flex-direction: column;
+    margin-bottom: 3rem;
 }
 
 .bundle-cards {
