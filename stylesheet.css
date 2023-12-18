@@ -469,6 +469,7 @@ span {
 
 .object-fit {
     object-fit: fill;
+    border-radius: 22px;
 }
 
 .instruction-heading {
@@ -687,6 +688,9 @@ h6 {
 
 .stockist-section {
     padding-bottom: 14rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
 .stock_heading {
@@ -748,9 +752,8 @@ h6 {
     line-height: 24px;
     color: #232323;
     text-align: center;
-    width: 17%;
-    margin: auto;
     position: relative;
+    white-space: nowrap;
 }
 
 .stock-heading::before {
@@ -782,7 +785,7 @@ h6 {
     position: absolute;
     width: 256px;
     right: 782px;
-    top: -92px;
+    top: 0px;
 }
 
 .go-wild {
@@ -796,6 +799,8 @@ h6 {
     color: #232323;
     font-family: Gelica;
     font-weight: 700;
+    display: flex;
+    justify-content: center;
     text-align: center;
 }
 
@@ -1055,6 +1060,9 @@ h6 {
     color: #232323;
     letter-spacing: 0.03em;
     margin-bottom: 1.5rem
+}
+.ingredients-heading{
+    white-space: nowrap;
 }
 
 .ingredients-para {

@@ -14,10 +14,6 @@
         gap: 1rem;
     }
 
-    .find-your-local-store {
-        width: 25%;
-    }
-
     .planet-heading-container {
         padding: 0;
     }
@@ -37,6 +33,10 @@
     .responsive {
         display: flex;
         justify-content: center;
+    }
+
+    .display-none-750px {
+        display: none;
     }
 }
 
@@ -176,6 +176,7 @@
 
     .footer-col-2 {
         gap: 10rem;
+        margin-top: 4rem;
     }
 
     .how-it-works-video {
@@ -195,7 +196,7 @@
     .how-it-works-buttons {
         display: flex;
         gap: 1rem;
-        top: 0%;
+        top: -5%;
         left: 50%;
         transform: translateX(-50%);
         position: absolute;
@@ -218,8 +219,8 @@
     }
 
     .ingredients-section {
-        padding: 20px;
-        flex-direction: column;
+        padding: 6rem 25px;
+        flex-direction: row;
     }
 
     .deodorant-button,
@@ -251,11 +252,11 @@
     }
 
     .flex-cards {
-        transform: translateX(280px);
+        transform: translateX(-20px);
     }
 
     .company-logo {
-        width: 80px;
+        width: 100px;
     }
 
     .responsive-16-px {
@@ -266,6 +267,114 @@
     .responsive-18-px {
         font-size: 18px;
         line-height: 28px;
+    }
+
+    .responsive-20-px {
+        font-size: 20px;
+        line-height: 32px;
+    }
+
+    .shopping-section {
+        white-space: wrap;
+        padding: 0 15px;
+    }
+
+    .responsive-div {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .planet-heading {
+        font-size: 65px;
+        line-height: 84px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .bamboo-refills {
+        padding: 2rem 0;
+    }
+
+    .go-wild-buttons {
+        flex-direction: column;
+    }
+
+    .display-none-950px {
+        display: none;
+    }
+
+    .get-started-how-to-use {
+        margin: 2em 0;
+    }
+
+    .ingredients-heading,
+    .ingredients-para {
+        font-family: FaturaPt;
+        font-size: 18px;
+        line-height: 32px;
+        color: #000000;
+    }
+
+    .ingredients-section {
+        gap: 2rem;
+    }
+
+    .image-container {
+        width: 48vw;
+    }
+}
+
+@media screen and (max-width) {}
+
+
+
+
+
+
+@media screen and (max-width: 750px) {
+
+    .flex-container {
+        padding: 0 20px;
+    }
+
+    .qualities-section h1 {
+        font-size: 24px;
+    }
+
+    .how-it-works-heading {
+        font-size: 48px;
+    }
+
+    .instruction-heading {
+        padding: 0;
+    }
+
+
+    .footer-ul {
+        display: none;
+    }
+
+    .flex-cards {
+        transform: translateX(-20px);
+    }
+
+    .company-logo {
+        width: 100px;
+    }
+
+    .responsive-16-px {
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    .responsive-18-px {
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    .responsive-20-px {
+        font-size: 20px;
+        line-height: 32px;
     }
 
     .responsive-24-px {
@@ -293,5 +402,71 @@
 
     .go-wild-buttons {
         flex-direction: column;
+    }
+
+    .get-started-how-to-use {
+        margin: 2em 0;
+    }
+
+    .instruction-para {
+        padding: 20px 0;
+    }
+
+    .footer-col-1 {
+        margin: auto;
+    }
+
+    .footer-col-2 {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .footer-nav-heading {
+        white-space: nowrap;
+    }
+
+    .flex-flow-3 {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .ingredients-section {
+        flex-direction: column;
+        gap: 5rem;
+    }
+
+    .image-container {
+        width: 64vw;
+    }
+
+    .row-1 {
+        width: 64vw;
+    }
+
+    .row-2 {
+        order: -1;
+    }
+
+    .planet-free {
+        gap: 2rem;
+    }
+
+    .bamboo-refills {
+        padding: 0;
+    }
+
+    .col-2,
+    .col-3,
+    .col-4,
+    .col-5,
+    .col-6 {
+        display: none;
+    }
+
+    .flex-flow-2 {
+        justify-content: center;
     }
 }
