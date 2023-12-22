@@ -1,16 +1,21 @@
 @import url(common.css);
 @import url(stylesheet.css);
-
+@import url(responsive.css);
+@import url(bundle-rwd.css);
+@import url(menu.css);
 main {
     padding: 0 70px;
 }
 
 .navbar {
     margin-top: 47px;
+    position: relative;
 }
 
-.wild-logo {
-    transform: translateY(-9px);
+.flex-item-2{
+    position: absolute;
+    right: 10px;
+    display: flex;
 }
 
 .navbar-ul img {
@@ -119,13 +124,6 @@ header {
     padding: 0;
     gap: 1.1rem;
     transform: translateX(-32px);
-}
-
-.bottle-for-life {
-    top: 10%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    white-space: nowrap;
 }
 
 .cards-2 {

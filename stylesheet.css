@@ -108,6 +108,10 @@ button {
     position: relative;
 }
 
+.wlid-logo {
+    transform: translateX(-8vw) translateY(-8px);
+}
+
 .navbar .flex-item-1 {
     display: flex;
 }
@@ -159,7 +163,8 @@ button {
 }
 
 .logo {
-    margin-left: 20px;
+    margin-left: 10px;
+    transform: translateY(-10px);
 }
 
 .wlid-logo {
@@ -183,9 +188,9 @@ button {
 }
 
 .flex-item-2 {
+    position: absolute;
+    right: 10px;
     display: flex;
-    align-items: center;
-    margin-left: auto;
 }
 
 .navbar-get-starter-button-2 {
@@ -852,6 +857,7 @@ h6 {
 
 .shopping-card {
     transition: all 0.5s ease;
+    display: grid;
 }
 
 .scroller {

@@ -1,7 +1,16 @@
+@media screen and (max-width: 1100px) {
+    .bundle-main {
+        padding: 0 6px;
+    }
+
+}
+
+
+
 @media screen and (max-width: 1000px) {
 
 
-    main {
+    .main-page-main {
         background-image: url(Images/1700584738-bf-bathroom-bundle_mobile-1.avif);
         height: 87vh;
         background-size: cover;
@@ -64,21 +73,37 @@
         justify-content: center;
         position: relative;
         align-items: center;
+        margin-top: 20px;
     }
 
     .flex-item-1 {
         position: absolute;
     }
 
+    .navbar-cart-button {
+        right: 10px;
+        position: absolute;
+        top: -30px;
+    }
+
     .wild-logo {
         margin-top: 0;
+        transform: none;
         width: 130px;
     }
 
     .nav-menu-button {
         position: absolute;
-        left: 0;
+        left: 18px;
         display: inline;
+        bottom: 17px;
+    }
+
+    .nav-menu-button-main {
+        position: absolute;
+        left: 14px;
+        display: inline;
+        bottom: -7px;
     }
 
     .flex-flow {
@@ -589,10 +614,11 @@
     .email-area input {
         width: 80vw;
     }
-.subscribe{
-    margin-right: 15px;
-    
-}
+
+    .subscribe {
+        margin-right: 15px;
+
+    }
 }
 
 @media screen and (max-width: 550px) {

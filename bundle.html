@@ -5,13 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Substainable Natural Deodorant That Works.</title>
-    <link rel="stylesheet" href="stylesheet.css">
     <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="shortcut icon" href="Images/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="responsive.css">
     <link rel="stylesheet" href="bundle.css">
-    <link rel="stylesheet" href="menu.css">
+    <link rel="stylesheet" href="bundle-rwd.css">
 </head>
 
 <body>
@@ -35,45 +33,57 @@
         </div>
 
     </header>
-    <main>
+    <main class="bundle-main">
         <div class="flex-flow-4">
             <div class="navbar">
+                <button class="nav-menu-button"><i class='bx bx-menu'></i></button>
                 <div class="flex-item-1">
                     <nav class="navbar-nav">
                         <ul class="navbar-ul">
                             <div class="menu-div">
-                            <li class="navbar-li"><a class="navbar-a" href="deodorant.html">Deodorant <i
-                                        class='nav-arrow bx bxs-chevron-down'></i></a>
-                            </li>
-                            <div class="nav-menu">
-                                <a href=""><div class="menu-row-1">
-                                    <div class="menu-col-1">
-                                        <p class="menu-heading-row-1 menu-heading-row">Deodorant</p>
-                                        <p class="menu-small-text-row-1">Get Started</p>
-                                    </div>
-                                    <div class="menu-col-2">
-                                        <img src="Images/Drop Down/1-deodorant.png" class="deodorant-drop-down-img">
-                                        <img src="Images/Orange arrow.png" class="orange-arrow-head">
-                                    </div>
-                                </div></a>
-                                <a href="bundle.html"><div class="menu-row-2">
-                                    <img src="Images/Drop Down/1-Bundles.png" class="dropdown-imgs">
-                                    <p class="menu-heading-row">Bundles</p>
-                                </div></a>
-                                <a href="cases.html"><div class="menu-row-3">
-                                    <img src="Images/Drop Down/2-case.jpg" class="dropdown-imgs">
-                                    <p class="menu-heading-row">Cases</p>
-                                </div></a>
-                                <a href=""><div class="menu-row-4">
-                                    <img src="Images/Drop Down/1-redills.jpg" class="dropdown-imgs">
-                                    <p class="menu-heading-row">Refills</p>
-                                </div></a>
-                               <a href=""> <div class="menu-row-5">
-                                    <img src="Images/Drop Down/2-minis_thumb.jpg" class="dropdown-imgs">
-                                    <p class="menu-heading-row">Mini Deos</p>
-                                </div></a>             
+                                <li class="navbar-li"><a class="navbar-a" href="deodorant.html">Deodorant <i
+                                            class='nav-arrow bx bxs-chevron-down'></i></a>
+                                </li>
+                                <div class="nav-menu">
+                                    <a href="">
+                                        <div class="menu-row-1">
+                                            <div class="menu-col-1">
+                                                <p class="menu-heading-row-1 menu-heading-row">Deodorant</p>
+                                                <p class="menu-small-text-row-1">Get Started</p>
+                                            </div>
+                                            <div class="menu-col-2">
+                                                <img src="Images/Drop Down/1-deodorant.png"
+                                                    class="deodorant-drop-down-img">
+                                                <img src="Images/Orange arrow.png" class="orange-arrow-head">
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <a href="bundle.html">
+                                        <div class="menu-row-2">
+                                            <img src="Images/Drop Down/1-Bundles.png" class="dropdown-imgs">
+                                            <p class="menu-heading-row">Bundles</p>
+                                        </div>
+                                    </a>
+                                    <a href="cases.html">
+                                        <div class="menu-row-3">
+                                            <img src="Images/Drop Down/2-case.jpg" class="dropdown-imgs">
+                                            <p class="menu-heading-row">Cases</p>
+                                        </div>
+                                    </a>
+                                    <a href="">
+                                        <div class="menu-row-4">
+                                            <img src="Images/Drop Down/1-redills.jpg" class="dropdown-imgs">
+                                            <p class="menu-heading-row">Refills</p>
+                                        </div>
+                                    </a>
+                                    <a href="">
+                                        <div class="menu-row-5">
+                                            <img src="Images/Drop Down/2-minis_thumb.jpg" class="dropdown-imgs">
+                                            <p class="menu-heading-row">Mini Deos</p>
+                                        </div>
+                                    </a>
+                                </div>
                             </div>
-                        </div>
                             <li class="navbar-li"><a class="navbar-a" href="#">Body <br>Wash <i
                                         class='nav-arrow bx bxs-chevron-down'></i></a>
                             </li>
@@ -81,15 +91,17 @@
                                         class='nav-arrow bx bxs-chevron-down'></i></a>
                             </li>
                             <li class="navbar-li"><a class="navbar-a" href="#">About<i
-                                        class='nav-arrow bx bxs-chevron-down'></i></a>
+                                class='nav-arrow bx bxs-chevron-down'></i></a>
                             </li>
                             <li class="nav-li"><a class="navbar-a" href="#">Refer A <br>Friend</a></li>
                         </ul>
                     </nav>
-                    <a href="main.html">
-                        <div class="logo"><img src="Images/black wild-logo.png" class="wild-logo"></div>
-                    </a>
                 </div>
+                <div class="flex-item-1.5">
+                <a href="main.html">
+                    <div class="logo"><img src="Images/black wild-logo.png" class="wild-logo"></div>
+                </a>
+            </div>
                 <div class="flex-item-2">
 
 
@@ -97,7 +109,6 @@
                             src="Images/arrow-head-green.png" class="button-arrow-heads"></a>
 
 
-                    <button class="nav-menu-button"><i class='bx bx-menu'></i></button>
                     <button class="navbar-user-button"><i class='bx bxs-user'></i></button>
                     <button class="navbar-cart-button"><i class='bx bxs-tv'></i></button>
                 </div>
@@ -124,15 +135,16 @@
         <!-- 1 -->
 
         <div class="shopping-cards">
-
             <div class="shopping-card">
                 <div class="new-in limited-edition">
                     <span>Limited Edition</span>
                 </div>
-                <img src="Images/2-1.jpg" class="shopping-img">
+                <div class="position-relative">
+                <img src="Images/2-1.jpg" class="shopping-img bundle-imgs">
                 <div class="add-button">
                     <button>ADD <img src="Images/plus.png" alt=""></button>
                 </div>
+            </div>
                 <div class="product-name">
                     Thunderstorm Body Wash Trio
                 </div>
@@ -151,10 +163,12 @@
                 <div class="new-in limited-edition">
                     <span>Limited Edition</span>
                 </div>
-                <img src="Images/2-2.jpg" class="shopping-img">
+                <div class="position-relative">
+                <img src="Images/2-2.jpg" class="shopping-img bundle-imgs">
                 <div class="add-button">
                     <button>ADD <img src="Images/plus.png" alt=""></button>
                 </div>
+            </div>
                 <div class="product-name">
                     Thunderstorm Body Wash Trio
                 </div>
@@ -173,10 +187,12 @@
                 <div class="new-in limited-edition">
                     <span>Limited Edition</span>
                 </div>
-                <img src="Images/2-3.jpg" class="shopping-img">
+                <div class="position-relative">
+                <img src="Images/2-3.jpg" class="shopping-img bundle-imgs">
                 <div class="add-button">
                     <button>ADD <img src="Images/plus.png" alt=""></button>
                 </div>
+            </div>
                 <div class="product-name">
                     Thunderstorm Body Wash Trio
                 </div>
@@ -195,10 +211,12 @@
                 <div class="new-in limited-edition">
                     <span>Limited Edition</span>
                 </div>
-                <img src="Images/2-4-5.jpg" class="shopping-img">
+                <div class="position-relative">
+                <img src="Images/2-4-5.jpg" class="shopping-img bundle-imgs">
                 <div class="add-button">
                     <button>ADD <img src="Images/plus.png" alt=""></button>
                 </div>
+            </div>
                 <div class="product-name">
                     Thunderstorm Body Wash Trio
                 </div>
@@ -217,10 +235,12 @@
                 <div class="new-in limited-edition">
                     <span>Limited Edition</span>
                 </div>
-                <img src="Images/2-4-5.jpg" class="shopping-img">
+                <div class="position-relative">
+                <img src="Images/2-4-5.jpg" class="shopping-img bundle-imgs">
                 <div class="add-button">
                     <button>ADD <img src="Images/plus.png" alt=""></button>
                 </div>
+            </div>
                 <div class="product-name">
                     Thunderstorm Body Wash Trio
                 </div>
@@ -236,16 +256,15 @@
             </div>
             <!-- 6 -->
             <div class="shopping-card">
-                <div class="new-in limited-edition">
-                    <span>New In</span>
-                </div>
-                <img src="Images/2-6.jpg" class="shopping-img">
+                <div class="position-relative">
+                <img src="Images/2-6.jpg" class="shopping-img bundle-imgs">
                 <div class="bottle-for-life">
                     LIMITED EDITION!
                 </div>
                 <div class="add-button">
                     <button>ADD <img src="Images/plus.png" alt=""></button>
                 </div>
+            </div>
                 <div class="product-name">
                     Thunderstorm Body Wash Trio
                 </div>
@@ -272,10 +291,12 @@
                 <div class="new-in limited-edition">
                     <span>Limited Edition</span>
                 </div>
-                <img src="Images/Bundle Images/2-1.avif" class="shopping-img">
+                <div class="position-relative">
+                <img src="Images/Bundle Images/2-1.avif" class="shopping-img bundle-imgs">
                 <div class="add-button">
                     <button>ADD <img src="Images/plus.png" alt=""></button>
                 </div>
+            </div>
                 <div class="product-name">
                     Thunderstorm Body Wash Trio
                 </div>
@@ -294,10 +315,12 @@
                 <div class="new-in limited-edition">
                     <span>Limited Edition</span>
                 </div>
-                <img src="Images/Bundle Images/2-2.avif" class="shopping-img">
+                <div class="position-relative">
+                <img src="Images/Bundle Images/2-2.avif" class="shopping-img bundle-imgs">
                 <div class="add-button">
                     <button>ADD <img src="Images/plus.png" alt=""></button>
                 </div>
+            </div>
                 <div class="product-name">
                     Thunderstorm Body Wash Trio
                 </div>
@@ -316,9 +339,11 @@
                 <div class="new-in limited-edition">
                     <span>Limited Edition</span>
                 </div>
-                <img src="Images/Bundle Images/2-3.avif" class="shopping-img">
+                <div class="position-relative">
+                <img src="Images/Bundle Images/2-3.avif" class="shopping-img bundle-imgs">
                 <div class="add-button">
                     <button>ADD <img src="Images/plus.png" alt=""></button>
+                </div>
                 </div>
                 <div class="product-name">
                     Thunderstorm Body Wash Trio
@@ -338,13 +363,15 @@
                 <div class="new-in limited-edition">
                     <span>Limited Edition</span>
                 </div>
-                <img src="Images/Bundle Images/2-4.avif" class="shopping-img">
+                <div class="position-relative">
+                <img src="Images/Bundle Images/2-4.avif" class="shopping-img bundle-imgs">
                 <div class="bottle-for-life">
                     Sensitive 🌸
 
                 </div>
                 <div class="add-button">
                     <button>ADD <img src="Images/plus.png" alt=""></button>
+                </div>
                 </div>
                 <div class="product-name">
                     Thunderstorm Body Wash Trio
@@ -364,13 +391,15 @@
                 <div class="new-in limited-edition">
                     <span>Limited Edition</span>
                 </div>
-                <img src="Images/Bundle Images/2-5.avif" class="shopping-img">
+                <div class="position-relative">
+                <img src="Images/Bundle Images/2-5.avif" class="shopping-img bundle-imgs">
                 <div class="bottle-for-life">
                     Sensitive 🌸
 
                 </div>
                 <div class="add-button">
                     <button>ADD <img src="Images/plus.png" alt=""></button>
+                </div>
                 </div>
                 <div class="product-name">
                     Thunderstorm Body Wash Trio
@@ -390,7 +419,8 @@
                 <div class="new-in limited-edition">
                     <span>New In</span>
                 </div>
-                <img src="Images/Bundle Images/2-6.avif" class="shopping-img">
+                <div class="position-relative">
+                <img src="Images/Bundle Images/2-6.avif" class="shopping-img bundle-imgs">
                 <div class="bottle-for-life">
                     Sensitive 🌸
 
@@ -398,6 +428,7 @@
                 <div class="add-button">
                     <button>ADD <img src="Images/plus.png" alt=""></button>
                 </div>
+            </div>
                 <div class="product-name">
                     Thunderstorm Body Wash Trio
                 </div>
@@ -423,7 +454,8 @@
                 <div class="new-in limited-edition">
                     <span>Limited Edition</span>
                 </div>
-                <img src="Images/Bundle Images/3-1.avif" class="shopping-img">
+                <div class="position-relative">
+                <img src="Images/Bundle Images/3-1.avif" class="shopping-img bundle-imgs">
                 <div class="bottle-for-life">
                     Sensitive 🌸
 
@@ -431,6 +463,7 @@
                 <div class="add-button">
                     <button>ADD <img src="Images/plus.png" alt=""></button>
                 </div>
+            </div>
                 <div class="product-name">
                     Thunderstorm Body Wash Trio
                 </div>
@@ -449,13 +482,15 @@
                 <div class="new-in limited-edition">
                     <span>Limited Edition</span>
                 </div>
-                <img src="Images/Bundle Images/3-2.avif" class="shopping-img">
+                <div class="position-relative">
+                <img src="Images/Bundle Images/3-2.avif" class="shopping-img bundle-imgs">
                 <div class="bottle-for-life">
                     Sensitive 🌸
                 </div>
                 <div class="add-button">
                     <button>ADD <img src="Images/plus.png" alt=""></button>
                 </div>
+            </div>
                 <div class="product-name">
                     Thunderstorm Body Wash Trio
                 </div>
@@ -470,6 +505,7 @@
                 </div>
             </div>
         </div>
+
         <!-- Row Number 4 -->
 
         <!-- 1 -->
@@ -480,10 +516,12 @@
                 <div class="new-in limited-edition">
                     <span>Limited Edition</span>
                 </div>
-                <img src="Images/Bundle Images/4-1 .avif" class="shopping-img">
+                <div class="position-relative">
+                <img src="Images/Bundle Images/4-1 .avif" class="shopping-img bundle-imgs">
                 <div class="add-button">
                     <button>ADD <img src="Images/plus.png" alt=""></button>
                 </div>
+            </div>
                 <div class="product-name">
                     Thunderstorm Body Wash Trio
                 </div>
@@ -502,10 +540,12 @@
                 <div class="new-in limited-edition">
                     <span>Limited Edition</span>
                 </div>
-                <img src="Images/Bundle Images/4-2.avif" class="shopping-img">
+                <div class="position-relative">
+                <img src="Images/Bundle Images/4-2.avif" class="shopping-img bundle-imgs">
                 <div class="add-button">
                     <button>ADD <img src="Images/plus.png" alt=""></button>
                 </div>
+            </div>
                 <div class="product-name">
                     Thunderstorm Body Wash Trio
                 </div>
@@ -524,10 +564,12 @@
                 <div class="new-in limited-edition">
                     <span>Limited Edition</span>
                 </div>
-                <img src="Images/Bundle Images/4-3.avif" class="shopping-img">
+                <div class="position-relative">
+                <img src="Images/Bundle Images/4-3.avif" class="shopping-img bundle-imgs">
                 <div class="add-button">
                     <button>ADD <img src="Images/plus.png" alt=""></button>
                 </div>
+            </div>
                 <div class="product-name">
                     Thunderstorm Body Wash Trio
                 </div>
@@ -546,7 +588,8 @@
                 <div class="new-in limited-edition">
                     <span>Limited Edition</span>
                 </div>
-                <img src="Images/Bundle Images/4-4.avif" class="shopping-img">
+                <div class="position-relative">
+                <img src="Images/Bundle Images/4-4.avif" class="shopping-img bundle-imgs">
                 <div class="bottle-for-life">
                     Sensitive 🌸
 
@@ -554,6 +597,7 @@
                 <div class="add-button">
                     <button>ADD <img src="Images/plus.png" alt=""></button>
                 </div>
+            </div>
                 <div class="product-name">
                     Thunderstorm Body Wash Trio
                 </div>
@@ -572,7 +616,8 @@
                 <div class="new-in limited-edition">
                     <span>Limited Edition</span>
                 </div>
-                <img src="Images/Bundle Images/4-5.avif" class="shopping-img">
+                <div class="position-relative">
+                <img src="Images/Bundle Images/4-5.avif" class="shopping-img bundle-imgs">
                 <div class="bottle-for-life">
                     Sensitive 🌸
 
@@ -580,6 +625,7 @@
                 <div class="add-button">
                     <button>ADD <img src="Images/plus.png" alt=""></button>
                 </div>
+            </div>
                 <div class="product-name">
                     Thunderstorm Body Wash Trio
                 </div>
@@ -604,10 +650,12 @@
                 <div class="new-in limited-edition">
                     <span>Limited Edition</span>
                 </div>
-                <img src="Images/Bundle Images/5-1.avif" class="shopping-img">
+                <div class="position-relative">
+                <img src="Images/Bundle Images/5-1.avif" class="shopping-img bundle-imgs">
                 <div class="add-button">
                     <button>ADD <img src="Images/plus.png" alt=""></button>
                 </div>
+            </div>
                 <div class="product-name">
                     Thunderstorm Body Wash Trio
                 </div>
@@ -626,10 +674,12 @@
                 <div class="new-in limited-edition">
                     <span>Limited Edition</span>
                 </div>
-                <img src="Images/Bundle Images/5-2.avif" class="shopping-img">
+                <div class="position-relative">
+                <img src="Images/Bundle Images/5-2.avif" class="shopping-img bundle-imgs">
                 <div class="add-button">
                     <button>ADD <img src="Images/plus.png" alt=""></button>
                 </div>
+            </div>
                 <div class="product-name">
                     Thunderstorm Body Wash Trio
                 </div>
@@ -648,10 +698,12 @@
                 <div class="new-in limited-edition">
                     <span>Limited Edition</span>
                 </div>
-                <img src="Images/Bundle Images/5-3.avif" class="shopping-img">
+                <div class="position-relative">
+                <img src="Images/Bundle Images/5-3.avif" class="shopping-img bundle-imgs">
                 <div class="add-button">
                     <button>ADD <img src="Images/plus.png" alt=""></button>
                 </div>
+            </div>
                 <div class="product-name">
                     Thunderstorm Body Wash Trio
                 </div>
@@ -670,7 +722,8 @@
                 <div class="new-in limited-edition">
                     <span>Limited Edition</span>
                 </div>
-                <img src="Images/Bundle Images/5-4.avif" class="shopping-img">
+                <div class="position-relative">
+                <img src="Images/Bundle Images/5-4.avif" class="shopping-img bundle-imgs">
                 <div class="bottle-for-life">
                     Sensitive 🌸
 
@@ -678,6 +731,7 @@
                 <div class="add-button">
                     <button>ADD <img src="Images/plus.png" alt=""></button>
                 </div>
+            </div>
                 <div class="product-name">
                     Thunderstorm Body Wash Trio
                 </div>
@@ -696,7 +750,8 @@
                 <div class="new-in limited-edition">
                     <span>Limited Edition</span>
                 </div>
-                <img src="Images/Bundle Images/5-5.avif" class="shopping-img">
+                <div class="position-relative">
+                <img src="Images/Bundle Images/5-5.avif" class="shopping-img bundle-imgs">
                 <div class="bottle-for-life">
                     Sensitive 🌸
 
@@ -704,6 +759,7 @@
                 <div class="add-button">
                     <button>ADD <img src="Images/plus.png" alt=""></button>
                 </div>
+            </div>
                 <div class="product-name">
                     Thunderstorm Body Wash Trio
                 </div>
@@ -728,13 +784,15 @@
                 <div class="new-in">
                     <span>New In</span>
                 </div>
-                <img src="Images/Bundle Images/6-1.jpg" class="shopping-img">
+                <div class="position-relative">
+                <img src="Images/Bundle Images/6-1.jpg" class="shopping-img bundle-imgs">
                 <div class="bottle-for-life">
                     Bottle for life 🛁
                 </div>
                 <div class="add-button">
                     <button>ADD <img src="Images/plus.png" alt=""></button>
                 </div>
+            </div>
                 <div class="product-name">
                     Thunderstorm Body Wash Trio
                 </div>
@@ -753,13 +811,15 @@
                 <div class="new-in">
                     <span>New In</span>
                 </div>
-                <img src="Images/Bundle Images/6-2.jpg" class="shopping-img">
+                <div class="position-relative">
+                <img src="Images/Bundle Images/6-2.jpg" class="shopping-img bundle-imgs">
                 <div class="bottle-for-life">
                     Bottle for life 🛁
                 </div>
                 <div class="add-button">
                     <button>ADD <img src="Images/plus.png" alt=""></button>
                 </div>
+            </div>
                 <div class="product-name">
                     Thunderstorm Body Wash Trio
                 </div>
@@ -778,13 +838,15 @@
                 <div class="new-in">
                     <span>New In</span>
                 </div>
-                <img src="Images/Bundle Images/6-3.avif" class="shopping-img">
+                <div class="position-relative">
+                <img src="Images/Bundle Images/6-3.avif" class="shopping-img bundle-imgs">
                 <div class="bottle-for-life">
                     Bottle for life 🛁
                 </div>
                 <div class="add-button">
                     <button>ADD <img src="Images/plus.png" alt=""></button>
                 </div>
+            </div>
                 <div class="product-name">
                     Thunderstorm Body Wash Trio
                 </div>
@@ -803,13 +865,15 @@
                 <div class="new-in">
                     <span>New In</span>
                 </div>
-                <img src="Images/Bundle Images/6-4.avif" class="shopping-img">
+                <div class="position-relative">
+                <img src="Images/Bundle Images/6-4.avif" class="shopping-img bundle-imgs">
                 <div class="bottle-for-life">
                     Bottle for life 🛁
                 </div>
                 <div class="add-button">
                     <button>ADD <img src="Images/plus.png" alt=""></button>
                 </div>
+            </div>
                 <div class="product-name">
                     Thunderstorm Body Wash Trio
                 </div>
@@ -828,13 +892,15 @@
                 <div class="new-in">
                     <span>New In</span>
                 </div>
-                <img src="Images/Bundle Images/6-5.avif" class="shopping-img">
+                <div class="position-relative">
+                <img src="Images/Bundle Images/6-5.avif" class="shopping-img bundle-imgs">
                 <div class="bottle-for-life">
                     Bottle for life 🛁
                 </div>
                 <div class="add-button">
                     <button>ADD <img src="Images/plus.png" alt=""></button>
                 </div>
+            </div>
                 <div class="product-name">
                     Thunderstorm Body Wash Trio
                 </div>
@@ -853,7 +919,8 @@
                 <div class="new-in">
                     <span>New In</span>
                 </div>
-                <img src="Images/Bundle Images/6-6.avif" class="shopping-img">
+                <div class="position-relative">
+                <img src="Images/Bundle Images/6-6.avif" class="shopping-img bundle-imgs">
                 <div class="bottle-for-life">
                     Bottle for life 🛁
                 </div>
@@ -863,6 +930,7 @@
                 <div class="add-button">
                     <button>ADD <img src="Images/plus.png" alt=""></button>
                 </div>
+            </div>
                 <div class="product-name">
                     Thunderstorm Body Wash Trio
                 </div>
@@ -899,13 +967,15 @@
                 <div class="new-in">
                     <span>New In</span>
                 </div>
-                <img src="Images/Bundle Images/7-1.jpg" class="shopping-img">
+                <div class="position-relative">
+                <img src="Images/Bundle Images/7-1.jpg" class="shopping-img bundle-imgs">
                 <div class="bottle-for-life">
                     Bottle for life 🛁
                 </div>
                 <div class="add-button">
                     <button>ADD <img src="Images/plus.png" alt=""></button>
                 </div>
+            </div>
                 <div class="product-name">
                     Thunderstorm Body Wash Trio
                 </div>
@@ -924,13 +994,15 @@
                 <div class="new-in">
                     <span>New In</span>
                 </div>
-                <img src="Images/Bundle Images/7-2.jpg" class="shopping-img">
+                <div class="position-relative">
+                <img src="Images/Bundle Images/7-2.jpg" class="shopping-img bundle-imgs">
                 <div class="bottle-for-life">
                     Bottle for life 🛁
                 </div>
                 <div class="add-button">
                     <button>ADD <img src="Images/plus.png" alt=""></button>
                 </div>
+            </div>
                 <div class="product-name">
                     Thunderstorm Body Wash Trio
                 </div>
@@ -949,13 +1021,15 @@
                 <div class="new-in">
                     <span>New In</span>
                 </div>
-                <img src="Images/Bundle Images/7-3.jpg" class="shopping-img">
+                <div class="position-relative">
+                <img src="Images/Bundle Images/7-3.jpg" class="shopping-img bundle-imgs">
                 <div class="bottle-for-life">
                     Bottle for life 🛁
                 </div>
                 <div class="add-button ">
                     <button><span class="sold-out">SOLD OUT</span></button>
                 </div>
+            </div>
                 <div class="product-name">
                     Thunderstorm Body Wash Trio
                 </div>
@@ -980,10 +1054,12 @@
                 <div class="new-in">
                     <span>New In</span>
                 </div>
-                <img src="Images/Bundle Images/8-1.avif" class="shopping-img">
+                <div class="position-relative">
+                <img src="Images/Bundle Images/8-1.avif" class="shopping-img bundle-imgs">
                 <div class="add-button ">
                     <button><span class="sold-out">SOLD OUT</span></button>
                 </div>
+            </div>
                 <div class="product-name">
                     Thunderstorm Body Wash Trio
                 </div>
@@ -1023,13 +1099,15 @@
                 <div class="new-in">
                     <span>New In</span>
                 </div>
-                <img src="Images/Bundle Images/9-1.jpg" class="shopping-img">
+                <div class="position-relative">
+                <img src="Images/Bundle Images/9-1.jpg" class="shopping-img bundle-imgs">
                 <div class="bottle-for-life">
                     Bottle for life 🛁
                 </div>
                 <div class="add-button">
                     <button>ADD <img src="Images/plus.png" alt=""></button>
                 </div>
+            </div>
                 <div class="product-name">
                     Thunderstorm Body Wash Trio
                 </div>
@@ -1048,13 +1126,15 @@
                 <div class="new-in">
                     <span>New In</span>
                 </div>
-                <img src="Images/Bundle Images/9-2jpg" class="shopping-img">
+                <div class="position-relative">
+                <img src="Images/Bundle Images/9-2jpg" class="shopping-img bundle-imgs">
                 <div class="bottle-for-life">
                     Bottle for life 🛁
                 </div>
                 <div class="add-button">
                     <button>ADD <img src="Images/plus.png" alt=""></button>
                 </div>
+            </div>
                 <div class="product-name">
                     Thunderstorm Body Wash Trio
                 </div>
@@ -1073,13 +1153,15 @@
                 <div class="new-in">
                     <span>New In</span>
                 </div>
-                <img src="Images/Bundle Images/9-3.jpg" class="shopping-img">
+                <div class="position-relative">
+                <img src="Images/Bundle Images/9-3.jpg" class="shopping-img bundle-imgs">
                 <div class="bottle-for-life">
                     Bottle for life 🛁
                 </div>
                 <div class="add-button ">
                     <button><span class="sold-out">SOLD OUT</span></button>
                 </div>
+            </div>
                 <div class="product-name">
                     Thunderstorm Body Wash Trio
                 </div>
@@ -1101,10 +1183,12 @@
         <div class="shopping-cards">
 
             <div class="shopping-card">
-                <img src="Images/Bundle Images/10-1.jpg" class="shopping-img">
+                <div class="position-relative">
+                <img src="Images/Bundle Images/10-1.jpg" class="shopping-img bundle-imgs">
                 <div class="add-button">
                     <button>ADD <img src="Images/plus.png" alt=""></button>
                 </div>
+            </div>
                 <div class="product-name">
                     Thunderstorm Body Wash Trio
                 </div>
@@ -1120,10 +1204,12 @@
             </div>
             <!-- 2 -->
             <div class="shopping-card">
-                <img src="Images/Bundle Images/10-2.jpg" class="shopping-img">
+                <div class="position-relative">
+                <img src="Images/Bundle Images/10-2.jpg" class="shopping-img bundle-imgs">
                 <div class="add-button">
                     <button>ADD <img src="Images/plus.png" alt=""></button>
                 </div>
+            </div>
                 <div class="product-name">
                     Thunderstorm Body Wash Trio
                 </div>
@@ -1139,10 +1225,12 @@
             </div>
             <!-- 3 -->
             <div class="shopping-card">
-                <img src="Images/Bundle Images/10-3.jpg" class="shopping-img">
+                <div class="position-relative">
+                <img src="Images/Bundle Images/10-3.jpg" class="shopping-img bundle-imgs">
                 <div class="add-button">
                     <button>ADD <img src="Images/plus.png" alt=""></button>
                 </div>
+            </div>
                 <div class="product-name">
                     Thunderstorm Body Wash Trio
                 </div>
@@ -1158,10 +1246,12 @@
             </div>
             <!-- 4 -->
             <div class="shopping-card">
-                <img src="Images/Bundle Images/10-4.jpg" class="shopping-img">
+                <div class="position-relative">
+                <img src="Images/Bundle Images/10-4.jpg" class="shopping-img bundle-imgs">
                 <div class="add-button">
                     <button>ADD <img src="Images/plus.png" alt=""></button>
                 </div>
+            </div>
                 <div class="product-name">
                     Thunderstorm Body Wash Trio
                 </div>
@@ -1177,10 +1267,12 @@
             </div>
             <!-- 5 -->
             <div class="shopping-card">
-                <img src="Images/Bundle Images/10-5.jpg" class="shopping-img">
+                <div class="position-relative">
+                <img src="Images/Bundle Images/10-5.jpg" class="shopping-img bundle-imgs">
                 <div class="add-button">
                     <button>ADD <img src="Images/plus.png" alt=""></button>
                 </div>
+            </div>
                 <div class="product-name">
                     Thunderstorm Body Wash Trio
                 </div>
@@ -1199,10 +1291,12 @@
                 <div class="new-in limited-edition">
                     <span>New In</span>
                 </div>
-                <img src="Images/Bundle Images/10-6.jpg" class="shopping-img">
+                <div class="position-relative">
+                <img src="Images/Bundle Images/10-6.jpg" class="shopping-img bundle-imgs">
                 <div class="add-button">
                     <button>ADD <img src="Images/plus.png" alt=""></button>
                 </div>
+            </div>
                 <div class="product-name">
                     Thunderstorm Body Wash Trio
                 </div>
@@ -1225,10 +1319,12 @@
         <div class="shopping-cards">
 
             <div class="shopping-card">
-                <img src="Images/Bundle Images/11-1.jpg" class="shopping-img">
+                <div class="position-relative">
+                <img src="Images/Bundle Images/11-1.jpg" class="shopping-img bundle-imgs">
                 <div class="add-button">
                     <button>ADD <img src="Images/plus.png" alt=""></button>
                 </div>
+            </div>
                 <div class="product-name">
                     Thunderstorm Body Wash Trio
                 </div>
@@ -1244,10 +1340,12 @@
             </div>
             <!-- 2 -->
             <div class="shopping-card">
-                <img src="Images/Bundle Images/11-2.jpg" class="shopping-img">
+                <div class="position-relative">
+                <img src="Images/Bundle Images/11-2.jpg" class="shopping-img bundle-imgs">
                 <div class="add-button">
                     <button>ADD <img src="Images/plus.png" alt=""></button>
                 </div>
+            </div>
                 <div class="product-name">
                     Thunderstorm Body Wash Trio
                 </div>
@@ -1263,10 +1361,12 @@
             </div>
             <!-- 3 -->
             <div class="shopping-card">
-                <img src="Images/Bundle Images/11-3.jpg" class="shopping-img">
+                <div class="position-relative">
+                <img src="Images/Bundle Images/11-3.jpg" class="shopping-img bundle-imgs">
                 <div class="add-button">
                     <button>ADD <img src="Images/plus.png" alt=""></button>
                 </div>
+            </div>
                 <div class="product-name">
                     Thunderstorm Body Wash Trio
                 </div>
@@ -1288,10 +1388,12 @@
         <div class="shopping-cards">
 
             <div class="shopping-card">
-                <img src="Images/Bundle Images/12-1.jpg" class="shopping-img">
+                <div class="position-relative">
+                <img src="Images/Bundle Images/12-1.jpg" class="shopping-img bundle-imgs">
                 <div class="add-button">
                     <button>ADD <img src="Images/plus.png" alt=""></button>
                 </div>
+            </div>
                 <div class="product-name">
                     Thunderstorm Body Wash Trio
                 </div>
@@ -1307,10 +1409,12 @@
             </div>
             <!-- 2 -->
             <div class="shopping-card">
-                <img src="Images/Bundle Images/12-2.jpg" class="shopping-img">
+                <div class="position-relative">
+                <img src="Images/Bundle Images/12-2.jpg" class="shopping-img bundle-imgs">
                 <div class="add-button">
                     <button>ADD <img src="Images/plus.png" alt=""></button>
                 </div>
+            </div>
                 <div class="product-name">
                     Thunderstorm Body Wash Trio
                 </div>
@@ -1326,10 +1430,12 @@
             </div>
             <!-- 3 -->
             <div class="shopping-card">
-                <img src="Images/Bundle Images/12-3.jpg" class="shopping-img">
+                <div class="position-relative">
+                <img src="Images/Bundle Images/12-3.jpg" class="shopping-img bundle-imgs">
                 <div class="add-button">
                     <button>ADD <img src="Images/plus.png" alt=""></button>
                 </div>
+            </div>
                 <div class="product-name">
                     Thunderstorm Body Wash Trio
                 </div>
@@ -1345,10 +1451,12 @@
             </div>
             <!-- 4 -->
             <div class="shopping-card">
-                <img src="Images/Bundle Images/12-4.jpg" class="shopping-img">
+                <div class="position-relative">
+                <img src="Images/Bundle Images/12-4.jpg" class="shopping-img bundle-imgs">
                 <div class="add-button">
                     <button>ADD <img src="Images/plus.png" alt=""></button>
                 </div>
+            </div>
                 <div class="product-name">
                     Thunderstorm Body Wash Trio
                 </div>
@@ -1364,10 +1472,12 @@
             </div>
             <!-- 5 -->
             <div class="shopping-card">
-                <img src="Images/Bundle Images/12-5.jpg" class="shopping-img">
+                <div class="position-relative">
+                <img src="Images/Bundle Images/12-5.jpg" class="shopping-img bundle-imgs">
                 <div class="add-button">
                     <button>ADD <img src="Images/plus.png" alt=""></button>
                 </div>
+            </div>
                 <div class="product-name">
                     Thunderstorm Body Wash Trio
                 </div>
@@ -1383,10 +1493,12 @@
             </div>
             <!-- 6 -->
             <div class="shopping-card">
-                <img src="Images/Bundle Images/12-6.jpg" class="shopping-img">
+                <div class="position-relative">
+                <img src="Images/Bundle Images/12-6.jpg" class="shopping-img bundle-imgs">
                 <div class="add-button">
                     <button>ADD <img src="Images/plus.png" alt=""></button>
                 </div>
+            </div>
                 <div class="product-name">
                     Thunderstorm Body Wash Trio
                 </div>
@@ -1427,158 +1539,201 @@
         </div>
 
     </main>
-</body>
- <!-- Footer -->
- <footer>
+    <!-- Footer -->
+    <footer>
 
-    <!-- Upper Part -->
-
+        <!-- Upper Part -->
 
 
-    <div class="upper-part">
-      <div class="flex-flow-3">
-        <div class="footer-col-1">
-          <p class="footer-col-1-para">
-            Keep up to date with Wild news 🗞️, latest products 💐 and <br>freshest scents👃🏾
-          </p>
-          <div class="email-area">
-            <input type="text" placeholder="Email Addrress">
-            <button class="subscribe">
-              Subscribe
-            </button>
-          </div>
-          <p class="footer-col-1-para-2">
-            By submitting your email, you agree to our Terms & Conditions and Privacy Policy.
-          </p>
-          <div class="social-links">
-            <a href="#">
-              <div class="instagram-link">
-                <a href="#">
-                  <div class="instagram">
-                    <a href="#"><i class='bx bxl-instagram'></i></a>
-                  </div>
-                </a>
-              </div>
-            </a>
 
-            <div class="facebook-link">
-              <div class="facebook">
-                <img src="Images/Facebook.png" alt="">
-              </div>
+        <div class="upper-part">
+            <div class="flex-flow-3">
+                <div class="footer-col-1">
+                    <p class="footer-col-1-para">
+                        Keep up to date with Wild news 🗞️, latest products 💐 and <br>freshest scents👃🏾
+                    </p>
+                    <div class="email-area">
+                        <input type="text" placeholder="Email Addrress">
+                        <button class="subscribe">
+                            Subscribe
+                        </button>
+                    </div>
+                    <p class="footer-col-1-para-2">
+                        By submitting your email, you agree to our Terms & Conditions and Privacy Policy.
+                    </p>
+                    <div class="social-links">
+                        <a href="#">
+                            <div class="instagram-link">
+                                <a href="#">
+                                    <div class="instagram">
+                                        <a href="#"><i class='bx bxl-instagram'></i></a>
+                                    </div>
+                                </a>
+                            </div>
+                        </a>
+
+                        <div class="facebook-link">
+                            <div class="facebook">
+                                <img src="Images/Facebook.png" alt="">
+                            </div>
+                        </div>
+                        <div class="twitter-link">
+                            <div class="twitter">
+                                <img src="Images/Twitter.png" alt="">
+                            </div>
+                        </div>
+                        <div class="tiktok-link">
+                            <div class="tiktok">
+                                <img src="Images/Tiktok.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="footer-col-2">
+                    <div class="footer-main-col footer-main-col-1">
+                        <nav class="footer-nav">
+
+                            <div class="footer-nav-heading responsive-18-px">
+                                Shop
+                            </div>
+                            <ul class="footer-ul">
+                                <li><a class="footer-a" href="bundle.html">Bundles</a></li>
+                                <li><a class="footer-a" href="cases.html">Cases</a></li>
+                                <li><a class="footer-a" href="">Refills</a></li>
+                                <li><a class="footer-a" href="">Soaps </a></li>
+                                <li><a class="footer-a" href="">Mini Deos</a></li>
+                                <li><a class="footer-a" href="">Shampoo Bars</a></li>
+                                <li><a class="footer-a" href="">All</a></li>
+                            </ul>
+                        </nav>
+                        <div class="footer-menu-openers">
+                            <i class='footer-arrow-1 bx bxs-chevron-down'></i>
+                        </div>
+                    </div>
+                    <div class="separator">
+
+                    </div>
+                    <div class="footer-main-col footer-main-col-2">
+                        <nav class="footer-nav">
+                            <div class="footer-nav-heading responsive-18-px">
+                                Learn
+                            </div>
+                            <ul class="footer-ul">
+                                <li><a class="footer-a" href="">FAQs</a></li>
+                                <li><a class="footer-a" href="">Our Mission</a></li>
+                                <li><a class="footer-a" href="">Our Ingredients</a></li>
+                                <li><a class="footer-a" href="">Blog </a></li>
+                                <li><a class="footer-a" href="">Student Beans</a></li>
+                                <li><a class="footer-a" href="">B Corp</a></li>
+                                <li><a class="footer-a" href="">Ambassador Program</a></li>
+                            </ul>
+                        </nav>
+                        <div class="footer-menu-openers">
+                            <i class='footer-arrow-2 bx bxs-chevron-down'></i>
+                        </div>
+                    </div>
+                    <div class="separator">
+
+                    </div>
+                    <div class="footer-main-col footer-main-col-3">
+                        <nav class="footer-nav">
+                            <div class="footer-nav-heading responsive-18-px">
+                                Support & Stores
+                            </div>
+                            <ul class="footer-ul">
+                                <li><a class="footer-a" href="">Careers</a></li>
+                                <li><a class="footer-a" href="">Contact Us</a></li>
+                                <li><a class="footer-a" href="">Refund Policy</a></li>
+                                <li><a class="footer-a" href="">Store Locator</a></li>
+                                <li><a class="footer-a" href="">Become Stockist</a></li>
+                            </ul>
+                        </nav>
+                        <div class="footer-menu-openers">
+                            <i class='footer-arrow-3 bx bxs-chevron-down'></i>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="twitter-link">
-              <div class="twitter">
-                <img src="Images/Twitter.png" alt="">
-              </div>
-            </div>
-            <div class="tiktok-link">
-              <div class="tiktok">
-                <img src="Images/Tiktok.png" alt="">
-              </div>
-            </div>
-          </div>
-        </div>
-
-
-        <div class="footer-col-2">
-          <div class="footer-main-col">
-            <nav>
-
-              <div class="footer-nav-heading">
-                Shop
-              </div>
-              <ul class="footer-ul">
-                <li><a class="footer-a" href="deodorant.html">Bundles</a></li>
-                <li><a class="footer-a" href="cases.html">Cases</a></li>
-                <li><a class="footer-a" href="">Refills</a></li>
-                <li><a class="footer-a" href="">Soaps </a></li>
-                <li><a class="footer-a" href="">Mini Deos</a></li>
-                <li><a class="footer-a" href="">Shampoo Bars</a></li>
-                <li><a class="footer-a" href="">All</a></li>
-              </ul>
-            </nav>
-          </div>
-          <div class="footer-main-col">
-            <nav>
-              <div class="footer-nav-heading">
-                Learn
-              </div>
-              <ul class="footer-ul">
-                <li><a class="footer-a" href="">FAQs</a></li>
-                <li><a class="footer-a" href="">Our Mission</a></li>
-                <li><a class="footer-a" href="">Our Ingredients</a></li>
-                <li><a class="footer-a" href="">Blog </a></li>
-                <li><a class="footer-a" href="">Student Beans</a></li>
-                <li><a class="footer-a" href="">B Corp</a></li>
-                <li><a class="footer-a" href="">Ambassador Program</a></li>
-              </ul>
-            </nav>
-          </div>
-          <div class="footer-main-col">
-            <nav>
-              <div class="footer-nav-heading">
-                Support & <br>Stores
-              </div>
-              <ul class="footer-ul">
-                <li><a class="footer-a" href="">Careers</a></li>
-                <li><a class="footer-a" href="">Contact Us</a></li>
-                <li><a class="footer-a" href="">Refund Policy</a></li>
-                <li><a class="footer-a" href="">Store Locator</a></li>
-                <li><a class="footer-a" href="">Become Stockist</a></li>
+            <div class="b-corp-logo-container">
                 <img src="Images/Certified-B-Corporation-logo.png" class="b-corp-logo">
-              </ul>
-            </nav>
-          </div>
+            </div>
         </div>
-      </div>
-    </div>
 
 
-    <!-- Lower Part -->
-    <div class="lower-part">
-      <div class="footer-text-wrapper-container">
-        <div class="footer-text-wrapper">
-          <p class="footer-text-wrapper-p">
-            Vegan&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;No
-            Nasties&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Planet
-            Friendly&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          </p>
-          <p class="footer-text-wrapper-p">
-            Vegan&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;No
-            Nasties&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Planet
-            Friendly&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          </p>
-          <p class="footer-text-wrapper-p">
-            Vegan&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;No
-            Nasties&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Planet
-            Friendly&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          </p>
-          <p class="footer-text-wrapper-p">
-            Vegan&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;No
-            Nasties&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Planet
-            Friendly&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          </p>
+        <!-- Lower Part -->
+        <div class="lower-part">
+            <div class="footer-text-wrapper-container">
+                <div class="footer-text-wrapper">
+                    <p class="footer-text-wrapper-p">
+                        Vegan&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;No
+                        Nasties&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Planet
+                        Friendly&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    </p>
+                    <p class="footer-text-wrapper-p">
+                        Vegan&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;No
+                        Nasties&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Planet
+                        Friendly&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    </p>
+                    <p class="footer-text-wrapper-p">
+                        Vegan&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;No
+                        Nasties&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Planet
+                        Friendly&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    </p>
+                    <p class="footer-text-wrapper-p">
+                        Vegan&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;No
+                        Nasties&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Planet
+                        Friendly&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    </p>
+                </div>
+            </div>
+            <div class="footer-options">
+                <a href="#" class="hover-button uk">🇬🇧 United Kingdom</a>
+                <p class="footer-options-p">©Wild UK 2023 </p>
+                <nav>
+                    <ul class="footer-lower-ul">
+                        <li class="footer-li">
+                            <a href="#" class="footer-lower-a">Privacy</a>
+                            <a href="#" class="footer-lower-a">Terms Of Service</a>
+                            <a href="#" class="footer-lower-a">
+                                By Rotate°
+                            </a>
+                        </li>
+                    </ul>
+
+                </nav>
+
+            </div>
         </div>
-      </div>
-      <div class="footer-options">
-        <a href="#" class="hover-button uk">🇬🇧 United Kingdom</a>
-        <p class="footer-options-p">©Wild UK 2023 </p>
-        <nav>
-          <ul class="footer-lower-ul">
-            <li>
-              <a href="#" class="footer-lower-a">Privacy</a>
-              <a href="#" class="footer-lower-a">Terms Of Service</a>
-              <a href="#" class="footer-lower-a">
-                By Rotate°
-              </a>
-            </li>
-          </ul>
+    </footer>
 
-        </nav>
 
-      </div>
+
+    <!-- <div class="text-wrapper-container">
+    <div class="text-wrapper text-wrapper-2">
+      <p class="text-wrapper-p-2">
+        Website Under Consturction!
+      </p>
+      <p class="text-wrapper-p-2">
+        Website Under Consturction!
+      </p>
+      <p class="text-wrapper-p-2">
+        Website Under Consturction!
+      </p>
+      <p class="text-wrapper-p-2">
+        Website Under Consturction!
+      </p>
+      <p class="text-wrapper-p-2">
+        Website Under Consturction!
+      </p>
+      <p class="text-wrapper-p-2">
+        Website Under Consturction!
+      </p>
     </div>
-  </footer>
+  </div> -->
 
+
+</body>
 
 </html>
