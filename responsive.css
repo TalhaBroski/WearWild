@@ -68,9 +68,12 @@
     .display-none {
         display: none;
     }
+    .flex-item-2{
+        position: absolute;
+    }
 
     .navbar {
-        justify-content: center;
+        justify-content: space-between;
         position: relative;
         align-items: center;
         margin-top: 20px;
@@ -83,7 +86,7 @@
     .navbar-cart-button {
         right: 10px;
         position: absolute;
-        top: -30px;
+        top: -40px;
     }
 
     .wild-logo {
@@ -574,12 +577,6 @@
         justify-content: center;
     }
 
-    .separator::before {
-        content: "";
-        height: 10px;
-        background-color: black;
-    }
-
     .footer-nav {
         width: 100%;
     }
@@ -594,12 +591,14 @@
         margin: 0;
     }
 
-    .separator::before {
-        content: "";
+    .footer-bx {
+        display: inline;
+    }
+
+    .separator {
         background-color: #E9CB48;
         height: 1px;
-        position: absolute;
-        width: 94%;
+        width: 100%;
     }
 
     .footer-col-2 {
@@ -659,5 +658,7 @@
         justify-content: center;
     }
 
-
+    .display-none-400px {
+        display: none;
+    }
 }

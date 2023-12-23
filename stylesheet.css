@@ -106,6 +106,7 @@ button {
     display: flex;
     align-items: flex-start;
     position: relative;
+    justify-content: space-between;
 }
 
 .wlid-logo {
@@ -162,10 +163,6 @@ button {
     margin-left: 5px;
 }
 
-.logo {
-    margin-left: 10px;
-    transform: translateY(-10px);
-}
 
 .wlid-logo {
     margin-left: 21px;
@@ -186,11 +183,17 @@ button {
         transform: translateX(-100%);
     }
 }
-
-.flex-item-2 {
+.logo-container{
     position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.flex-item-2 {
+    position: relative;
     right: 10px;
     display: flex;
+    gap: 1rem;
 }
 
 .navbar-get-starter-button-2 {
@@ -223,20 +226,85 @@ button {
 
 }
 
-.navbar-user-button,
-.navbar-cart-button,
+.nav-get-started-btn {
+    margin: 0;
+}
+
+.navbar-cart-button:hover .bxs-tv::after{
+    transform: translate(-50%, -50%) scale(1.1);
+    
+}
+.navbar-user-button:hover .bxs-user::after{
+    transform: translate(-50%, -50%) scale(1.1);
+    
+}
+.navbar-cart-button {
+    position: relative;
+    width: 39px;
+    height: 39px;
+}
+
+.bxs-tv::before {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.bxs-tv::after {
+    content: "";
+    background-color: white;
+    width: 39px;
+    height: 39px;
+    color: #232323;
+    border-radius: 100vw;
+    z-index: -1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: all 0.2s ease;
+}
+
+
+.navbar-user-button {
+    position: relative;
+    width: 39px;
+    height: 39px;
+}
+
+.bxs-user::before {
+    content: "\eee1";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.bxs-user::after {
+    content: "";
+    background-color: white;
+    width: 39px;
+    height: 39px;
+    color: #232323;
+    border-radius: 100vw;
+    z-index: -1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: all 0.2s ease;
+}
+
+
 .nav-menu-button {
+    display: none;
     background-color: white;
     width: 39px;
     height: 39px;
     color: #232323;
     border-radius: 100vw;
     margin-right: 1rem;
-
-}
-
-.nav-menu-button {
-    display: none;
 }
 
 
@@ -1520,4 +1588,8 @@ h6 {
 .footer-options nav {
     display: flex;
     gap: 2.3rem;
+}
+
+.footer-bx {
+    display: none;
 }
