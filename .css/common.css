@@ -1,37 +1,37 @@
 @font-face {
     font-family: FaturaPt;
-    src: url(Fonts/FaruraPt//FuturaCyrillicLight.ttf);
+    src: url(../assets/Fonts/FaruraPt//FuturaCyrillicLight.ttf);
     font-weight: 300;
 }
 @font-face {
     font-family: FaturaPt;
-    src: url(Fonts/FaruraPt/FuturaCyrillicBook.ttf);
+    src: url(../assets/Fonts/FaruraPt/FuturaCyrillicBook.ttf);
     font-weight: 400;
 }
 @font-face {
     font-family: FaturaPt;
-    src: url(Fonts/FaruraPt/FuturaCyrillicDemi.ttf);
+    src: url(../assets/Fonts/FaruraPt/FuturaCyrillicDemi.ttf);
     font-weight: 500;
 }
 @font-face {
     font-family: FaturaPt;
-    src: url(Fonts/FaruraPt/FuturaCyrillicBold.ttf);
+    src: url(../assets/Fonts/FaruraPt/FuturaCyrillicBold.ttf);
     font-weight: 700;
 }
 
 @font-face {
     font-family: Gelica;
-    src: url(Fonts/Gelica/Bold\ Regular.ttf);
+    src: url(../assets/Fonts/Gelica/Bold\ Regular.ttf);
     font-weight: 400;
 }
 @font-face {
     font-family: Gelica;
-    src: url(Fonts/Gelica/Bogue-Semibold\ Regular.ttf);
+    src: url(../assets/Fonts/Gelica/Bogue-Semibold\ Regular.ttf);
     font-weight: 600;
 }
 @font-face {
     font-family: Gelica;
-    src: url(Fonts/Gelica/Bogue-Extrabold\ Regular.ttf);
+    src: url(../assets/Fonts/Gelica/Bogue-Extrabold\ Regular.ttf);
     font-weight: 700;
 }
 
