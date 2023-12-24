@@ -269,7 +269,8 @@
 
 .planet-text {
     position: relative;
-    width: fit-content;
+  width: min-content;
+  white-space: nowrap;
 }
 
 .instrustion-button {

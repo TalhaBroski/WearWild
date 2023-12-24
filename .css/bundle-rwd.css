@@ -1,6 +1,6 @@
 @media screen and (max-width:1980px) {
     .shopping-cards {
-        justify-content: center;
+        justify-content: flex-start;
         left: 50%;
         transform: translate(-50%);
         position: relative;

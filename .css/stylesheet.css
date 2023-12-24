@@ -183,12 +183,14 @@ button {
         transform: translateX(-100%);
     }
 }
-.logo-container{
+
+.logo-container {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
 .flex-item-2 {
     position: relative;
     right: 10px;
@@ -230,14 +232,16 @@ button {
     margin: 0;
 }
 
-.navbar-cart-button:hover .bxs-tv::after{
+.navbar-cart-button:hover .bxs-tv::after {
     transform: translate(-50%, -50%) scale(1.1);
-    
+
 }
-.navbar-user-button:hover .bxs-user::after{
+
+.navbar-user-button:hover .bxs-user::after {
     transform: translate(-50%, -50%) scale(1.1);
-    
+
 }
+
 .navbar-cart-button {
     position: relative;
     width: 39px;
@@ -504,6 +508,8 @@ span {
     position: relative;
     padding: 0px 70px;
     padding-bottom: 10rem;
+    left: 50%;
+    transform: translateX(-47%);
 }
 
 .how-it-works-heading {
@@ -531,9 +537,9 @@ span {
 
 .how-to-use {
     position: absolute;
-    right: 134px;
+    right: -25%;
     border: 2px solid #F1EEE4;
-    top: 120px;
+    top: 15%;
     background-color: white;
     border-radius: 20px;
     padding: 40px 60px;
@@ -860,9 +866,9 @@ h6 {
 
 .planet-refill {
     position: absolute;
-    width: 256px;
-    right: 782px;
-    top: 0px;
+  width: 270px;
+  left: -25%;
+  top: -54%;
 }
 
 .go-wild {
@@ -1596,10 +1602,24 @@ h6 {
     display: none;
 }
 
-.subscribe:hover{
+.subscribe:hover {
     opacity: 1;
 
 }
-.nav-get-started-btn{
+
+.nav-get-started-btn {
     padding: 10px 22px 10px 20px !important;
 }
+
+.positioning-div {
+    position: relative;
+    width: min-content;
+
+}
+.display-block-900px{
+    display: none;
+}
+.planet-heading-container {
+    display: flex;
+    justify-content: center;
+  }
