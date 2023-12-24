@@ -120,6 +120,9 @@ main {
 .bundle-nav-get-started-btn::before {
     background-color: #F1EEE4;
 }
+.bundle-nav-get-started-btn{
+    padding: 11px 26px;
+}
 
 .bundle-heading {
     font-size: 88px;
@@ -220,7 +223,8 @@ header {
     gap: 2.2em;
     margin-bottom: 3rem;
 }
-.cases-add-button{
+
+.cases-add-button {
     bottom: 4%;
 }
 
@@ -325,4 +329,12 @@ header {
 
 .all-shopping-cards {
     position: relative;
+}
+
+.fa-plus::before {
+    content: "\2b";
+    position: absolute;
+    top: 49%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }

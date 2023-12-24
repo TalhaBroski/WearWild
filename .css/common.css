@@ -1,18 +1,23 @@
+
+
 @font-face {
     font-family: FaturaPt;
     src: url(../assets/Fonts/FaruraPt//FuturaCyrillicLight.ttf);
     font-weight: 300;
 }
+
 @font-face {
     font-family: FaturaPt;
     src: url(../assets/Fonts/FaruraPt/FuturaCyrillicBook.ttf);
     font-weight: 400;
 }
+
 @font-face {
     font-family: FaturaPt;
     src: url(../assets/Fonts/FaruraPt/FuturaCyrillicDemi.ttf);
     font-weight: 500;
 }
+
 @font-face {
     font-family: FaturaPt;
     src: url(../assets/Fonts/FaruraPt/FuturaCyrillicBold.ttf);
@@ -24,11 +29,13 @@
     src: url(../assets/Fonts/Gelica/Bold\ Regular.ttf);
     font-weight: 400;
 }
+
 @font-face {
     font-family: Gelica;
     src: url(../assets/Fonts/Gelica/Bogue-Semibold\ Regular.ttf);
     font-weight: 600;
 }
+
 @font-face {
     font-family: Gelica;
     src: url(../assets/Fonts/Gelica/Bogue-Extrabold\ Regular.ttf);
@@ -38,11 +45,119 @@
 
 /* Button Hover Styling */
 
-.position-relative{
+
+.arrow-bg-dark-gr::after {
+    background-color: #1D7F75;
+}
+
+.arrow-bg-light-gr::after {
+    background-color: #62A69F;
+}
+
+.arrow-bg-cyan::after {
+    background-color: #4DD6B4;
+}
+
+.arrow-bg-grey::after {
+    background-color: #B9B9B7;
+}
+
+.arrow-bg-orange::after {
+    background-color: #FF9172;
+}
+
+.arrow-head-anim {
+    z-index: 0;
+}
+
+.button-arrow-heads {
     position: relative;
 }
 
-.get-started-body-wash{
+.button-arrow-heads::after {
+    right: 0;
+    bottom: 0;
+    content: "";
+    z-index: -1;
+    position: absolute;
+    border-radius: 100vw;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 20px;
+    height: 20px;
+
+}
+
+.fa-plus {
+    width: 25px;
+    height: 25px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fa-plus::before {
+    color: white;
+    font-size: 13px;
+}
+
+.fa-plus::after {
+    content: "";
+    background-color: #1D7F75;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 100vw;
+    z-index: -1;
+}
+
+
+
+.arrow-color-white::before {
+    color: white;
+}
+
+.arrow-color-black::before {
+    color: rgb(0, 0, 0);
+}
+
+.bx-chevron-right {
+    margin-left: 10px;
+}
+
+.large-bg::after {
+    width: 39px;
+    height: 39px;
+}
+
+.bx-chevron-right::before {
+    top: 50%;
+    left: 50%;
+    transform: translate(-51%, -50%);
+    position: absolute;
+    font-weight: 700;
+}
+
+.margin-l-5px {
+    margin-left: 2px;
+    margin-right: 5px;
+}
+.margin-l-15px-in {
+    margin-left: 15px;
+    margin-right: 5px;
+}
+
+
+
+.position-relative {
+    position: relative;
+}
+
+.get-started-body-wash {
     display: inline-block;
     position: relative;
     text-decoration: none;
@@ -56,7 +171,7 @@
     transition: all 0.3s ease;
 }
 
-.get-started-body-wash::before{
+.get-started-body-wash::before {
     border-radius: 8px;
     content: '';
     position: absolute;
@@ -70,10 +185,12 @@
     transform: scale(1);
     transition: all 0.3s ease;
 }
-.get-started-body-wash:hover::before{
+
+.get-started-body-wash:hover::before {
     transform: scale(1.05);
 }
-.get-started-deodorant{
+
+.get-started-deodorant {
     display: inline-block;
     position: relative;
     text-decoration: none;
@@ -86,7 +203,8 @@
     gap: 0.4rem;
     transition: all 0.3s ease;
 }
-.get-started-deodorant::before{
+
+.get-started-deodorant::before {
     border-radius: 8px;
     content: '';
     position: absolute;
@@ -100,12 +218,13 @@
     transform: scale(1);
     transition: all 0.3s ease;
 }
-.get-started-deodorant:hover::before{
+
+.get-started-deodorant:hover::before {
     transform: scale(1.05);
 }
 
 
-.get-started{
+.get-started {
     display: inline-block;
     position: relative;
     padding: 18px 25px;
@@ -124,7 +243,8 @@
     line-height: 20px;
     transition: all 0.3s ease;
 }
-.get-started::before{
+
+.get-started::before {
     border-radius: 8px;
     content: '';
     position: absolute;
@@ -138,16 +258,20 @@
     transform: scale(1);
     transition: all 0.3s ease;
 }
-.get-started:hover::before{
+
+.get-started:hover::before {
     transform: scale(1.05);
 }
-.display-none-2{
+
+.display-none-2 {
     display: none;
 }
-.planet-text{
+
+.planet-text {
     position: relative;
     width: fit-content;
 }
+
 .instrustion-button {
     display: inline-block;
     position: relative;
@@ -167,7 +291,8 @@
     line-height: 20px;
     transition: all 0.3s ease;
 }
-.instrustion-button::before{
+
+.instrustion-button::before {
     border-radius: 8px;
     content: '';
     position: absolute;
@@ -181,11 +306,13 @@
     transform: scale(1);
     transition: all 0.3s ease;
 }
-.instrustion-button:hover::before{
+
+.instrustion-button:hover::before {
     transform: scale(1.05);
 }
+
 .header-content-deodorant-btn,
-.header-content-body-wash-btn{
+.header-content-body-wash-btn {
     display: inline-block;
     position: relative;
     padding: 18px 25px;
@@ -205,7 +332,8 @@
     transition: all 0.3s ease;
 
 }
-.shop-all{
+
+.shop-all {
     padding: 10px 16px;
 }
 
@@ -224,23 +352,26 @@
     transform: scale(1);
     transition: all 0.3s ease;
 }
+
 .header-content-deodorant-btn:hover::before,
 .header-content-body-wash-btn:hover::before {
     transform: scale(1.05);
-    
+
 }
 
-.header-content-body-wash-btn::before{
+.header-content-body-wash-btn::before {
     background-color: #fff;
 }
 
-.arrow-head-anim:hover .button-arrow-heads{
-transform: translateX(5px);
+.arrow-head-anim:hover .button-arrow-heads {
+    transform: translateX(5px);
 }
-.button-arrow-heads{
+
+.button-arrow-heads {
     transition: all 0.3s ease;
-    
+
 }
+
 .hover-button-1 {
     display: inline-block;
     position: relative;
@@ -260,6 +391,7 @@ transform: translateX(5px);
     font-size: 15px;
     line-height: 20px;
 }
+
 .hover-button-1::before {
     border-radius: 8px;
     content: '';
@@ -277,7 +409,7 @@ transform: translateX(5px);
 
 .hover-button-1:hover::before {
     transform: scale(1.04);
-    
+
 }
 
 
