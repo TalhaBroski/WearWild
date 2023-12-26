@@ -1,25 +1,81 @@
+.menu-checkbox {
+    display: none;
+}
+
 .nav-menu {
     background-color: rgb(255, 255, 255);
     width: 377px;
     height: 468px;
     padding: 20px;
     border-radius: 20px;
-    display: flex;
     gap: 1rem;
     flex-direction: column;
     position: absolute;
     margin-top: 2rem;
     z-index: 1;
-    transform: translateX(0000px);
+    display: none;
+    border: 1px solid #F1EEE4;
+    animation: menu-closing 1s;
+
+}
+
+.nav-menu * {
     opacity: 0;
-    transition: opacity 0.5s ease;
 }
-.menu-div:hover .deodorant-arrow-head-down{
-    transform: rotateX('180deg');
+
+.menu-checkbox:checked+.navbar-a+.nav-menu * {
+    animation: opacity 0.3s ease forwards;
+    animation-delay: 0.15s;
 }
-.menu-div:hover .nav-menu {
-    transform: translateX(0px);
-    opacity: 1;
+
+.menu-checkbox:checked+.navbar-a+.nav-menu {
+    display: flex;
+    animation: menu-opening 0.3s;
+}
+
+
+.menu-checkbox:checked+.navbar-a .bxs-chevron-down::before {
+    content: "\ed42";
+
+}
+
+.nav-arrow {
+    margin-left: 5px;
+}
+
+@keyframes menu-opening {
+    0% {
+        transform: scale(0.85);
+        transform-origin: center;
+    }
+
+    100% {
+        transform: scale(1);
+        transform-origin: center;
+    }
+}
+
+@keyframes menu-closing {
+    100% {
+        transform: scale(1);
+        transform-origin: center;
+    }
+
+    0% {
+        transform: scale(0.85);
+        transform-origin: center;
+    }
+
+}
+
+@keyframes opacity {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
 }
 
 .menu-row-1 {

@@ -867,8 +867,8 @@ h6 {
 .planet-refill {
     position: absolute;
   width: 270px;
-  left: -25%;
-  top: -54%;
+  left: -27%;
+  top: -126%;
 }
 
 .go-wild {
@@ -1616,10 +1616,32 @@ h6 {
     width: min-content;
 
 }
-.display-block-900px{
+
+.display-block-900px {
     display: none;
 }
+
 .planet-heading-container {
     display: flex;
     justify-content: center;
-  }
+}
+
+.footer-checkbox {
+    display: none;
+}
+
+.footer-checkbox:checked+.footer-nav .footer-ul {
+    display: block;
+}
+
+.footer-checkbox-2 {
+    display: none;
+}
+
+.footer-checkbox-2:checked .footer-ul-2 {
+    display: block;
+}
+
+label {
+    cursor: pointer;
+}

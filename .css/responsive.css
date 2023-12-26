@@ -450,6 +450,34 @@
 
     }
 
+
+    .footer-checkbox {
+        display: none;
+    }
+
+    .footer-col-2 {
+        margin-left: 0rem;
+    }
+
+    .footer-checkbox:checked+.manu-openers .bxs-chevron-down::before {
+        content: "ed/eae";
+    }
+
+    .footer-menu-openers {
+        cursor: pointer;
+    }
+
+
+    .footer-main-col a {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .arrow-alignment {
+        display: flex;
+        justify-content: space-between;
+    }
+
     .planet-refill {
         width: 150px;
     }
@@ -474,6 +502,7 @@
 
     .footer-ul {
         display: none;
+        margin-top: 1rem;
     }
 
     .flex-cards {
@@ -660,9 +689,11 @@
         font-size: 26px !important;
         line-height: 35px;
     }
-.planet-refill{
-    width: 98px;
-}
+
+    .planet-refill {
+        width: 98px;
+    }
+
     .row-2 {
         order: -1;
     }
@@ -698,4 +729,10 @@
     .display-none-400px {
         display: none;
     }
+}
+@media screen and (min-width: 1280px) {
+    .shopping-img{
+        width: 13vw;
+    }
+    
 }

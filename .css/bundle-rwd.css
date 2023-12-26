@@ -1,7 +1,7 @@
 @media screen and (max-width:1980px) {
     .shopping-cards {
         justify-content: flex-start;
-        left: 50%;
+        left: 60%;
         transform: translate(-50%);
         position: relative;
     }
@@ -16,6 +16,9 @@
     
     .shopping-img {
         width: 13vw;
+    }
+    .shopping-cards {
+        left: 50%;
     }
     
 }
@@ -307,7 +310,7 @@
     }
 
     .shopping-cards {
-        margin-left: 1rem;
+        margin-left: 0.55rem;
     }
 }
 
