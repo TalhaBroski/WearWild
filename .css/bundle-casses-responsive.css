@@ -9,18 +9,19 @@
     .shopping-img {
         width: 10vw;
     }
-    
+
 }
 
 @media screen and (max-width: 1400px) {
-    
+
     .shopping-img {
         width: 13vw;
     }
+
     .shopping-cards {
         left: 50%;
     }
-    
+
 }
 
 
@@ -30,6 +31,7 @@
     .shopping-img {
         width: 13vw;
     }
+
     .shopping-cards {
         left: 48%;
         justify-content: flex-start;
@@ -122,6 +124,14 @@
 
     }
 
+    .planet-refill-4 {
+        position: absolute;
+        width: 271px;
+        left: -14.5%;
+        width: 96px;
+        top: -60%;
+    }
+
     .bundle-heading {
         font-size: 42px;
         line-height: 48px;
@@ -166,10 +176,6 @@
 
     .bamboo-refills {
         padding: 1rem;
-    }
-
-    .need-refills {
-        display: none;
     }
 }
 
@@ -250,9 +256,10 @@
     .navbar-cart-button {
         top: -11px;
     }
+
     .nav-menu-button {
         bottom: -17px;
-      }
+    }
 }
 
 @media screen and (max-width: 800px) {
