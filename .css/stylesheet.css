@@ -83,7 +83,7 @@ button {
 }
 
 .main-page-main {
-    background-image: url(Images/MainBc.png);
+    background-image: url(../assets/Images/MainBc.png);
     height: 85vh;
     background-repeat: no-repeat;
     border-bottom-left-radius: 25px;
