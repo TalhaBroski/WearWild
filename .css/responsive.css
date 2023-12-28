@@ -65,6 +65,15 @@
 
     .planet-refill {
         width: 237px;
+
+    }
+
+    .planet-refill-4 {
+        position: absolute;
+        width: 271px;
+        left: -14.5%;
+        width: 200px;
+        top: -60%;
     }
 
     .display-block-900px {
@@ -730,9 +739,10 @@
         display: none;
     }
 }
+
 @media screen and (min-width: 1280px) {
-    .shopping-img{
+    .shopping-img {
         width: 13vw;
     }
-    
+
 }

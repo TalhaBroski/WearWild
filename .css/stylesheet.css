@@ -107,6 +107,7 @@ button {
     align-items: flex-start;
     position: relative;
     justify-content: space-between;
+    z-index: 999;
 }
 
 .wlid-logo {
@@ -864,11 +865,32 @@ h6 {
     padding: 0px 160px;
 }
 
-.planet-refill {
+.planet-refill-1 {
     position: absolute;
-  width: 270px;
-  left: -27%;
-  top: -126%;
+    width: 270px;
+    left: -24.5%;
+    top: -61%;
+}
+
+.planet-refill-2 {
+    position: absolute;
+    width: 270px;
+    left: -27.5%;
+    top: -140%;
+}
+
+.planet-refill-3 {
+    position: absolute;
+    width: 271px;
+    left: -39.5%;
+    top: -123%;
+}
+
+.planet-refill-4 {
+    position: absolute;
+    width: 239px;
+    left: -19.5%;
+    top: -90%;
 }
 
 .go-wild {
@@ -1644,4 +1666,44 @@ h6 {
 
 label {
     cursor: pointer;
+}
+
+.loading-bar-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 3px;
+}
+
+.loading-bar {
+    height: 100%;
+    width: 0;
+    background-color: black;
+    animation: loading-bar-anim 2.5s ease;
+}
+
+@keyframes loading-bar-anim {
+    0% {
+        width: 0;
+    }
+
+    99% {
+        width: 100%;
+    }
+
+    100% {
+        display: none;
+    }
+}
+
+.seperator-2 {
+    height: 15px;
+    background-color: #F0F0F0;
+    position: absolute;
+    left: -20%;
+    right: 0;
+    bottom: 35%;
+    width: 178vw;
 }
