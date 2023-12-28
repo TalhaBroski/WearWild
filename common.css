@@ -38,7 +38,9 @@
 
 /* Button Hover Styling */
 
-
+.position-relative{
+    position: relative;
+}
 
 .get-started-body-wash{
     display: inline-block;
@@ -144,6 +146,7 @@
 }
 .planet-text{
     position: relative;
+    width: fit-content;
 }
 .instrustion-button {
     display: inline-block;
@@ -269,7 +272,7 @@ transform: translateX(5px);
     z-index: -1;
     transform-origin: center;
     transform: scale(1);
-    transition: transform 0.1.5s ease-in-out;
+    transition: transform 0.15s ease-in-out;
 }
 
 .hover-button-1:hover::before {

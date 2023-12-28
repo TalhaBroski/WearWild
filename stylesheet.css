@@ -469,6 +469,7 @@ span {
 
 .object-fit {
     object-fit: fill;
+    border-radius: 22px;
 }
 
 .instruction-heading {
@@ -510,6 +511,10 @@ span {
     z-index: 11;
     perspective: 100px;
     font-weight: 500;
+}
+
+.how-to-use-btn {
+    margin-top: 2rem;
 }
 
 .how-it-works-buttons {
@@ -687,6 +692,9 @@ h6 {
 
 .stockist-section {
     padding-bottom: 14rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
 .stock_heading {
@@ -748,9 +756,8 @@ h6 {
     line-height: 24px;
     color: #232323;
     text-align: center;
-    width: 17%;
-    margin: auto;
     position: relative;
+    white-space: nowrap;
 }
 
 .stock-heading::before {
@@ -782,7 +789,7 @@ h6 {
     position: absolute;
     width: 256px;
     right: 782px;
-    top: -92px;
+    top: 0px;
 }
 
 .go-wild {
@@ -796,6 +803,8 @@ h6 {
     color: #232323;
     font-family: Gelica;
     font-weight: 700;
+    display: flex;
+    justify-content: center;
     text-align: center;
 }
 
@@ -854,12 +863,11 @@ h6 {
 }
 
 .shopping-card:hover .bottle-for-life {
-    top: 8%;
+    transform: translateX(-50%) translateY(-8px);
 }
 
 .shopping-card:hover .new-in {
-    top: -10px;
-    transform: rotateZ(-32deg);
+    transform: translateY(-8px) rotateZ(-32deg);
 }
 
 .shopping-img,
@@ -979,7 +987,7 @@ h6 {
     top: -5px;
     left: -18px;
     border-radius: 5px;
-    padding: 3px 10px;
+    padding: 3px 6px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -995,8 +1003,9 @@ h6 {
     justify-content: center;
     align-items: center;
     border: 1px solid #F1EEE4;
-    bottom: 39%;
-    left: 16%;
+    bottom: -5%;
+    left: 50%;
+    transform: translateX(-50%);
 
 }
 
@@ -1014,16 +1023,19 @@ h6 {
 }
 
 .bottle-for-life {
-    top: 20px;
     background-color: #fff;
     border-radius: 4px;
-    left: 30px;
     font-size: 11px;
     padding: 5px;
     letter-spacing: 0.03em;
     font-family: FaturaPt;
     font-weight: 500;
     text-transform: uppercase;
+    left: 50%;
+    top: 10%;
+    transform: translateX(-50%);
+    white-space: nowrap;
+
 }
 
 .shopping-img {
@@ -1055,6 +1067,10 @@ h6 {
     color: #232323;
     letter-spacing: 0.03em;
     margin-bottom: 1.5rem
+}
+
+.ingredients-heading {
+    white-space: nowrap;
 }
 
 .ingredients-para {
@@ -1258,7 +1274,7 @@ h6 {
 
 .upper-part {
     background-color: #FFDE4B;
-    padding: 6rem 70px 4rem 70px;
+    padding: 6rem 20px 4rem 70px;
 }
 
 .flex-flow-3 {
@@ -1377,6 +1393,7 @@ h6 {
     align-items: flex-start;
     flex-direction: row;
     gap: 3.5rem;
+    margin-left: 2rem;
 }
 
 .footer-main-col a {
@@ -1409,10 +1426,14 @@ h6 {
     margin-bottom: 1rem;
 }
 
+.b-corp-logo-container {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 4rem;
+}
+
 .b-corp-logo {
-    width: 71px;
-    margin-top: 4em;
-    margin-left: 4rem;
+    width: 70px;
 }
 
 /* Lower Part */
