@@ -3,6 +3,7 @@
 @import url(responsive.css);
 @import url(bundle-rwd.css);
 @import url(menu.css);
+
 main {
     padding: 0 70px;
 }
@@ -10,9 +11,10 @@ main {
 .navbar {
     margin-top: 47px;
     position: relative;
+    justify-content: space-between;
 }
 
-.flex-item-2{
+.flex-item-2 {
     position: absolute;
     right: 10px;
     display: flex;
@@ -35,13 +37,87 @@ main {
     height: none;
 }
 
-.navbar-user-button,
-.navbar-cart-button,
-.nav-menu-button {
-    background-color: #F1EEE4;
+.nav-get-started-btn {
+    margin: 0;
 }
 
-.nav-get-started-btn::before {
+.navbar-cart-button:hover .bxs-tv::after {
+    transform: translate(-50%, -50%) scale(1.1);
+
+}
+
+.navbar-user-button:hover .bxs-user::after {
+    transform: translate(-50%, -50%) scale(1.1);
+
+}
+
+.navbar-cart-button {
+    position: relative;
+}
+
+.bxs-tv::before {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.bxs-tv::after {
+    content: "";
+    background-color: #F1EEE4;
+    width: 39px;
+    height: 39px;
+    color: #232323;
+    border-radius: 100vw;
+    z-index: -1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: all 0.2s ease;
+}
+
+
+.navbar-user-button {
+    position: relative;
+}
+
+.bxs-user::before {
+    content: "\eee1";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.bxs-user::after {
+    content: "";
+    background-color: #F1EEE4;
+    width: 39px;
+    height: 39px;
+    color: #232323;
+    border-radius: 100vw;
+    z-index: -1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: all 0.2s ease;
+}
+
+
+.nav-menu-button {
+    display: none;
+    background-color: #F1EEE4;
+    width: 39px;
+    height: 39px;
+    color: #232323;
+    border-radius: 100vw;
+    margin-right: 1rem;
+}
+
+.bundle-nav-get-started-btn::before {
     background-color: #F1EEE4;
 }
 
@@ -87,9 +163,11 @@ header {
     border-radius: 7px;
     margin: 0;
 }
-.all-btn{
+
+.all-btn {
     background-color: #FFDE4B;
 }
+
 .body-wash-button-2::before,
 .deodorant-btn::before {
     background-color: #F1EEE4;
@@ -139,11 +217,11 @@ header {
 
 .shopping-cards {
     padding: 0;
-    margin-left: 1rem;
-    transform: translateX(-30px);
     gap: 2.2em;
-    /* flex-wrap: wrap; */
     margin-bottom: 3rem;
+}
+.cases-add-button{
+    bottom: 4%;
 }
 
 .top-label {
@@ -221,22 +299,30 @@ header {
 /* Need Refills Section */
 
 
-.need-refills-section{
+.need-refills-section {
     display: flex;
     gap: 3rem;
     flex-direction: column;
     margin-top: 10rem;
     margin-bottom: 8rem;
 }
-.need-refills-section{
+
+.need-refills-section {
     padding-bottom: 10rem;
 }
-.need-refills{
-   right: 570px; 
+
+.need-refills {
+    right: 570px;
 }
+
 .need-refills-text {
     color: black;
 }
-.need-refills-btn{
+
+.need-refills-btn {
     padding: 18px 25px;
+}
+
+.all-shopping-cards {
+    position: relative;
 }

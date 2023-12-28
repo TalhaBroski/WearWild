@@ -1,11 +1,9 @@
 @media screen and (max-width:1980px) {
     .shopping-cards {
         justify-content: center;
-        left: 54%;
+        left: 50%;
         transform: translate(-50%);
         position: relative;
-        margin-bottom: 8rem;
-        justify-content: flex-start;
     }
 
     .shopping-img {
@@ -15,34 +13,24 @@
 }
 
 @media screen and (max-width: 1400px) {
-    .shopping-cards {
-        justify-content: flex-start;
-        left: 45%;
-        transform: translate(-50%);
-        position: relative;
-
-    }
 
     .shopping-img {
         width: 13vw;
     }
-
+    .shopping-cards{
+        justify-content: flex-start;
+    }
 }
 
 
 
 
 @media screen and (max-width: 1280px) {
-    .shopping-cards {
-        justify-content: flex-start;
-        left: 45%;
-        transform: translate(-50%);
-        position: relative;
-
-    }
-
     .shopping-img {
         width: 13vw;
+    }
+    .shopping-cards {
+        left: 48%;
     }
 
 }
@@ -95,6 +83,13 @@
     .responsive-div-for-bundle {
         display: flex;
     }
+}
+
+@media screen and (max-width: 1000px) {
+    .flex-flow-4 {
+        padding: 0;
+    }
+
 }
 
 @media screen and (max-width: 800px) {
@@ -220,4 +215,117 @@
         row-gap: 5.5rem;
     }
 
+}
+
+
+
+/* Casses */
+
+
+@media screen and (max-width: 1150px) {
+    .flex-flow-6 {
+        gap: 4rem;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    .display-none-950px {
+        display: none;
+    }
+
+    .sweat-security-img {
+        width: 45vw;
+    }
+
+    .flex-flow-6 {
+        gap: 4rem;
+    }
+
+    .nav-menu-button {
+        display: block;
+    }
+
+    .navbar-cart-button {
+        top: -11px;
+    }
+    .nav-menu-button {
+        bottom: -17px;
+      }
+}
+
+@media screen and (max-width: 800px) {
+    .display-none-800px {
+        display: none;
+    }
+
+    .card-heading {
+        font-size: 28px;
+    }
+
+
+    .card-para-bundle {
+        font-size: 19px;
+    }
+
+    .row-2-Para,
+    .row-2-heading {
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    .flex-flow-6 {
+        gap: 2rem;
+    }
+
+    .width-200px {
+        width: 180px;
+
+    }
+
+    .sweat-security-btn {
+        padding: 15px;
+        font-size: 14px;
+    }
+
+}
+
+@media screen and (max-width: 750px) {
+
+    .flex-flow-6 {
+        margin: 1rem;
+        margin-bottom: 10rem;
+        gap: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .display-none-800px {
+        display: block;
+    }
+
+    .display-none-550px {
+        display: none;
+    }
+
+    .shopping-cards {
+        margin-left: 1rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .flex-flow-6 {
+        flex-direction: column;
+    }
+
+    .flex-flow-6-row-2 {
+        width: 65vw;
+    }
+
+    .flex-flow-6-row-1 {
+        width: 70vw;
+    }
+
+    .sweat-security-img {
+        width: 100%;
+    }
 }
