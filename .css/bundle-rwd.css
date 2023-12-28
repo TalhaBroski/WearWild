@@ -9,17 +9,15 @@
     .shopping-img {
         width: 10vw;
     }
-
+    
 }
 
 @media screen and (max-width: 1400px) {
-
+    
     .shopping-img {
         width: 13vw;
     }
-    .shopping-cards{
-        justify-content: flex-start;
-    }
+    
 }
 
 
@@ -31,6 +29,7 @@
     }
     .shopping-cards {
         left: 48%;
+        justify-content: flex-start;
     }
 
 }

@@ -987,10 +987,11 @@ h6 {
 .scroller {
     display: flex;
     justify-content: right;
-    width: 46%;
     margin-left: auto;
-    gap: 10px;
+    gap: 2.5rem;
+    cursor: pointer;
 }
+
 
 .large-green-1 {
     transform: rotateZ(180deg);
@@ -1087,7 +1088,7 @@ h6 {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 2rem;
+    gap: 1rem;
     font-size: 15px;
     line-height: 20px;
     color: #232323;
@@ -1398,6 +1399,7 @@ h6 {
     opacity: 0.5;
     text-transform: uppercase;
     letter-spacing: 0.03em;
+    transition: all 0.2s ease;
 }
 
 .footer-col-1-para-2 {
@@ -1592,4 +1594,12 @@ h6 {
 
 .footer-bx {
     display: none;
+}
+
+.subscribe:hover{
+    opacity: 1;
+
+}
+.nav-get-started-btn{
+    padding: 10px 22px 10px 20px !important;
 }

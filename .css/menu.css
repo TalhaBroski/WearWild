@@ -10,7 +10,7 @@
     position: absolute;
     margin-top: 2rem;
     z-index: 1;
-    transform: translateX(00px);
+    transform: translateX(0000px);
     opacity: 0;
     transition: opacity 0.5s ease;
 }
