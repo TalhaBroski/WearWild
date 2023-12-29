@@ -45,7 +45,10 @@
     font-size: 22px;
     line-height: 32px;
 }
-
+.p-1-5{
+    font-size: 20px;
+    line-height: 32px;
+}
 .p-2 {
     font-size: 18px;
     line-height: 28px;
@@ -97,7 +100,7 @@
 
 }
 
-.letter-spacing{
+.letter-spacing {
     letter-spacing: 0.3px;
 }
 
@@ -161,13 +164,21 @@
 .flex {
     display: flex;
 }
+.flex-start{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
 
 .flex-center {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-
+.flex-space-between{
+    display: flex;
+    justify-content: space-between;
+}
 .flex-column {
     display: flex;
     flex-direction: column;
@@ -202,9 +213,11 @@
 .position-relative-1 {
     position: relative;
 }
-.position-absolute-1{
+
+.position-absolute-1 {
     position: absolute;
 }
+
 .text-center {
     text-align: center;
 }
@@ -212,17 +225,24 @@
 .flex-wrap {
     flex-wrap: wrap;
 }
-.overflow-hidded{
+
+.overflow-hidded {
     overflow: hidden;
 }
-.pointer{
+
+.pointer {
     cursor: pointer;
 }
-.main-border{
+
+.main-border {
     border: 1px solid #F1EEE4;
+}
+.display-none{
+    display: none;
 }
 
 /* Refills images */
+
 .planet-refill-1 {
     position: absolute;
     width: 270px;
@@ -240,7 +260,7 @@
 .planet-refill-3 {
     position: absolute;
     width: 271px;
-    left: -39.5%;
+    left: -32.5%;
     top: -123%;
 }
 
