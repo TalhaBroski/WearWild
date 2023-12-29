@@ -58,15 +58,8 @@ body {
 }
 
 .text-wrapper-p {
-    font-size: 15px;
-    line-height: 24px;
-    color: #232323;
-    white-space: nowrap;
     padding-left: 6rem;
-    font-family: FaturaPt;
     animation: MoveLeft 20s linear infinite;
-    font-weight: 500;
-
 }
 
 button {
@@ -84,7 +77,7 @@ button {
 
 .main-page-main {
     background-image: url(../assets/Images/MainBc.png);
-    height: 85vh;
+    min-height: 85vh;
     background-repeat: no-repeat;
     border-bottom-left-radius: 25px;
     border-bottom-right-radius: 20px;
@@ -96,10 +89,7 @@ button {
 
 .flex-flow {
     padding: 42px 53px;
-    display: flex;
-    flex-direction: column;
     row-gap: 3rem;
-    white-space: nowrap;
 }
 
 .navbar {
@@ -127,19 +117,8 @@ button {
 
 .navbar-a {
     text-decoration: none;
-    font-size: 16px;
-    line-height: 24px;
-    color: white;
-    text-transform: uppercase;
-    font-family: FaturaPt;
-    font-weight: 500;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     transition: all 0.25s ease;
     cursor: pointer;
-    background-color: transparent;
-    height: auto;
 
 }
 
@@ -185,12 +164,6 @@ button {
     }
 }
 
-.logo-container {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
 
 .flex-item-2 {
     position: relative;
@@ -273,7 +246,6 @@ button {
 
 
 .navbar-user-button {
-    position: relative;
     width: 39px;
     height: 39px;
 }
@@ -318,20 +290,11 @@ button {
 
 
 .header-content-h1 {
-    font-size: 84px;
-    line-height: 91px;
     color: white;
-    font-family: Gelica;
-    font-weight: 600;
     letter-spacing: -2.848px;
 }
 
 .header-content-para {
-    font-size: 24px;
-    line-height: 32px;
-    color: white;
-    font-family: Gelica;
-    font-weight: 600;
     margin-top: 1.5rem;
     margin-bottom: 1.5rem;
 }
@@ -406,12 +369,7 @@ span {
 }
 
 .cards {
-    display: flex;
     flex: 1;
-    border-radius: 20px;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
     padding: 21px 12px;
     margin-bottom: 2rem;
     border: 2px solid #F1EEE4;
@@ -420,12 +378,7 @@ span {
 }
 
 .card-para {
-    font-family: Gelica;
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 25px;
     margin: 20px 0px;
-    /* margin-bottom: 40px; */
 }
 
 .five-star-img {
@@ -434,9 +387,6 @@ span {
 
 .card-name-and-date {
     font-family: sans-serif;
-    font-size: 12px;
-    line-height: 15px;
-    font-family: FaturaPt;
     margin-top: auto;
 
 }
@@ -447,21 +397,12 @@ span {
 }
 
 .slider-buttons {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     gap: 5px;
     margin-bottom: 5rem;
 }
 
 .qualities-section h1 {
-    font-size: 38px;
-    line-height: 48px;
-    font-family: Gelica;
-    font-weight: 600;
     display: grid;
-    text-align: center;
-    color: #232323;
 }
 
 .qualities-section {
@@ -470,12 +411,7 @@ span {
 
 .qualities-cards {
     margin-top: 4rem;
-    display: flex;
     gap: 2rem;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
-    flex-wrap: wrap;
 }
 
 .quality-card {
@@ -487,26 +423,13 @@ span {
 }
 
 .quality-card-h2 {
-    font-size: 22px;
-    line-height: 22px;
-    font-family: FaturaPt;
-    font-weight: 500;
-    color: #2c2c2c;
     padding: 10px 0px;
 }
 
-.quality-para {
-    font-size: 18px;
-    line-height: 28px;
-    font-family: FaturaPt;
-    font-weight: 400;
-    color: #232323;
-}
 
 /* How to Use section */
 
 .flex-container {
-    position: relative;
     padding: 0px 70px;
     padding-bottom: 10rem;
     left: 50%;
@@ -514,12 +437,6 @@ span {
 }
 
 .how-it-works-heading {
-    font-size: 88px;
-    line-height: 96px;
-    font-family: Gelica;
-    font-weight: 600;
-    color: #232323;
-    text-align: center;
     padding: 0px 0px 5rem 0px;
 }
 
@@ -531,45 +448,22 @@ span {
     display: none;
 }
 
-.how-it-works-video {
-    border-radius: 21px;
-    overflow: hidden;
-}
-
 .how-to-use {
     position: absolute;
     right: -25%;
     border: 2px solid #F1EEE4;
     top: 15%;
     background-color: white;
-    border-radius: 20px;
     padding: 40px 60px;
 
 }
 
 .object-fit {
     object-fit: fill;
-    border-radius: 22px;
 }
 
 .instruction-heading {
-    font-size: 22px;
-    line-height: 32px;
-    font-family: FaturaPt;
-    font-weight: 500;
-
-    letter-spacing: 0.35px;
-    color: #232323;
     padding: 30px 0px;
-}
-
-.instruction-para {
-    font-size: 18px;
-    line-height: 22px;
-    color: #232323;
-    font-family: FaturaPt;
-    font-weight: 400;
-
 }
 
 .get-started-ins {
@@ -577,8 +471,6 @@ span {
 }
 
 .instrustion-button {
-    font-size: 15px;
-    line-height: 20px;
     font-family: FaturaPt;
     background-color: #1D7F75;
     color: white;
@@ -604,16 +496,8 @@ span {
 
 .deodorant-button,
 .body-wash-button {
-    padding: 45px;
-    border: 1px solid #F1EEE4;
-    font-size: 24px;
-    line-height: 32px;
-    font-family: Gelica;
-    font-weight: 600;
     background-color: white;
-    position: absolute;
-    border-radius: 20px;
-    cursor: pointer;
+    padding: 45px;
 }
 
 .deodorant-button {
@@ -627,21 +511,13 @@ span {
 
 
 .products-cards-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
     gap: 1rem;
     padding-bottom: 10rem;
 }
 
 .products-cards {
-    border-color: white;
-    border: 1px solid #F1EEE4;
-    border-radius: 20px;
     padding: 20px;
     transition: transform 0.20s ease;
-    cursor: pointer;
 }
 
 .products-cards:hover {
@@ -657,56 +533,23 @@ span {
 .product-img {
     width: 170px;
 }
-
-
-.product-heading {
-    font-size: 22px;
-    line-height: 32px;
-    color: #232323;
-    font-family: FaturaPt;
-    font-weight: 500;
-
-    letter-spacing: 0.03em;
-}
-
-.price {
-    font-size: 15px;
-    line-height: 24px;
-    font-family: FaturaPt;
-    letter-spacing: 0.03em;
-    font-weight: 300;
-}
-
 /* Company Review */
+
 .companies-review {
     margin-bottom: 8rem;
 }
 
 .flex-cards {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
     gap: 2rem;
 }
 
 h6 {
-    font-size: 22px;
-    line-height: 36px;
-    color: #232323;
-    font-family: FaturaPt;
-    font-weight: 500;
-    text-align: center;
     padding: 2rem 0px;
-    letter-spacing: 0.03em;
-
 }
 
 .companies-logo-container {
     background-color: #fff;
-    border: 1px solid #F1EEE4;
     padding: 20px;
-    border-radius: 10px;
     filter: grayscale(1);
     opacity: 0.3;
     transition: all 0.20s ease;
@@ -724,24 +567,7 @@ h6 {
 }
 
 .company-comment {
-    font-size: 38px;
-    line-height: 48px;
-    color: #232323;
-    font-family: Gelica;
-    font-weight: 600;
-    font-weight: 600;
     padding: 2rem 0px;
-    text-align: center;
-
-}
-
-.company-name {
-    font-size: 15px;
-    line-height: 24px;
-    color: #000000;
-    text-align: center;
-    font-family: FaturaPt;
-    font-weight: 500;
 }
 
 /* Stockist Section */
@@ -756,14 +582,6 @@ h6 {
     }
 }
 
-.stockist {
-    color: #232323;
-    text-decoration: none;
-    transition: opacity 0.25s ease;
-    font-family: FaturaPt;
-    font-weight: 500;
-}
-
 .stockist:hover {
 
     opacity: 0.6;
@@ -772,28 +590,10 @@ h6 {
 
 .stockist-section {
     padding-bottom: 14rem;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
 }
 
 .stock_heading {
-    font-family: FaturaPt;
-    font-size: 22px;
-    line-height: 32px;
-    text-align: center;
-    letter-spacing: 0.03em;
     margin-bottom: 1rem;
-}
-
-.stock_line {
-    font-family: Gelica;
-    font-weight: 600;
-    font-size: 38px;
-    line-height: 48px;
-    letter-spacing: 0.03em;
-    text-align: center;
-    color: #232323;
 }
 
 @keyframes slide {
@@ -808,9 +608,8 @@ h6 {
 }
 
 .slider {
-    overflow: hidden;
     margin: 4rem 0px;
-    white-space: nowrap;
+
 }
 
 .slider-logos {
@@ -828,16 +627,8 @@ h6 {
     border: 1px solid #F1EEE4;
     margin: 0px 10px;
 }
-
-.find-your-local-store {
-    font-family: FaturaPt;
-    font-weight: 500;
-    font-family: 15px;
-    line-height: 24px;
-    color: #232323;
-    text-align: center;
-    position: relative;
-    white-space: nowrap;
+.stockist{
+    transition: all 0.2s ease;
 }
 
 .stock-heading::before {
@@ -854,9 +645,7 @@ h6 {
 
 /* Planet Refill */
 .planet-free {
-    display: flex;
     gap: 3rem;
-    flex-direction: column;
     margin-top: 4rem;
     margin-bottom: 10rem;
 }
@@ -865,57 +654,9 @@ h6 {
     padding: 0px 160px;
 }
 
-.planet-refill-1 {
-    position: absolute;
-    width: 270px;
-    left: -24.5%;
-    top: -61%;
-}
-
-.planet-refill-2 {
-    position: absolute;
-    width: 270px;
-    left: -27.5%;
-    top: -140%;
-}
-
-.planet-refill-3 {
-    position: absolute;
-    width: 271px;
-    left: -39.5%;
-    top: -123%;
-}
-
-.planet-refill-4 {
-    position: absolute;
-    width: 239px;
-    left: -19.5%;
-    top: -90%;
-}
 
 .go-wild {
     right: 730px;
-}
-
-.planet-heading {
-    position: relative;
-    font-size: 74px;
-    line-height: 85px;
-    color: #232323;
-    font-family: Gelica;
-    font-weight: 700;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-}
-
-.bamboo-refills {
-    font-size: 20px;
-    line-height: 32px;
-    color: #4f4f4f;
-    text-align: center;
-    font-family: FaturaPt;
-    font-weight: 300;
 }
 
 .planet-get-started-button {
@@ -927,16 +668,6 @@ h6 {
 .get-started {
     background-color: #F1EEE4;
     padding: 20px 25px;
-    font-size: 15px;
-    line-height: 20px;
-    color: #232323;
-    font-family: FaturaPt;
-    font-weight: 500;
-    border-radius: 14px;
-    text-transform: uppercase;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     gap: 8px;
 }
 
@@ -944,11 +675,8 @@ h6 {
 
 .shopping-section {
     padding-bottom: 8rem;
-    display: flex;
-    align-items: center;
     gap: 1rem;
     padding: 0 70px;
-    white-space: nowrap;
 }
 
 .shopping-card {
@@ -979,36 +707,18 @@ h6 {
 }
 
 .shopping-heading {
-    font-size: 38px;
-    line-height: 48px;
-    color: #232323;
-    font-family: Gelica;
-    font-weight: 600;
-    display: flex;
-    align-items: center;
     gap: 2rem;
 }
 
 .shop-all {
-    font-size: 15px;
-    line-height: 20px;
-    color: white;
-    font-family: FaturaPt;
-    font-weight: 500;
     background-color: #1D7F75;
     padding: 12px 15px;
     border-radius: 9px;
-    display: inline-flex;
-    align-items: center;
     gap: 1rem;
-    text-transform: uppercase;
     transform: translateY(4px)
 }
 
 .responsive-div {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
     gap: 1rem;
 }
 
@@ -1017,7 +727,6 @@ h6 {
     justify-content: right;
     margin-left: auto;
     gap: 2.5rem;
-    cursor: pointer;
 }
 
 
@@ -1079,9 +788,6 @@ h6 {
     margin: 0;
     font-size: 12px;
     color: white;
-    text-transform: uppercase;
-    font-family: FaturaPt;
-    font-weight: 500;
 }
 
 .new-in {
@@ -1091,9 +797,6 @@ h6 {
     left: -18px;
     border-radius: 5px;
     padding: 3px 6px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     z-index: 999;
 }
 
@@ -1102,10 +805,6 @@ h6 {
     width: 119px;
     height: 51px;
     border-radius: 100vw;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 1px solid #F1EEE4;
     bottom: -5%;
     left: 50%;
     transform: translateX(-50%);
@@ -1113,15 +812,7 @@ h6 {
 }
 
 .add-button button {
-    display: flex;
-    align-items: center;
-    justify-content: center;
     gap: 1rem;
-    font-size: 15px;
-    line-height: 20px;
-    color: #232323;
-    font-family: FaturaPt;
-    font-weight: 500;
 
 }
 
@@ -1130,20 +821,14 @@ h6 {
     border-radius: 4px;
     font-size: 11px;
     padding: 5px;
-    letter-spacing: 0.03em;
-    font-family: FaturaPt;
-    font-weight: 500;
-    text-transform: uppercase;
     left: 50%;
     top: 10%;
     transform: translateX(-50%);
-    white-space: nowrap;
 
 }
 
 .shopping-img {
     width: 165px;
-    border-radius: 25px;
 }
 
 .product-name {
@@ -1151,50 +836,25 @@ h6 {
 }
 
 /* Ingredients */
+
+
 .ingredients-section {
-    padding: 0 70px;
-    display: flex;
-    flex-direction: row;
+    padding: 0 70px;;
     justify-content: space-between;
-    align-items: center;
     padding-bottom: 9rem;
     gap: 4rem;
 }
 
 .ingredients-heading,
 .ingredients-para {
-    font-family: FaturaPt;
-    font-size: 22px;
-    line-height: 32px;
-    font-weight: 500;
-    color: #232323;
-    letter-spacing: 0.03em;
     margin-bottom: 1.5rem
 }
 
-.ingredients-heading {
-    white-space: nowrap;
-}
 
 .ingredients-para {
     font-family: FaturaPt;
     font-weight: 300;
-}
-
-.our-ingredients {
-    font-size: 15px;
-    line-height: 20px;
-    font-family: FaturaPt;
-    display: flex;
-    align-items: center;
-    font-weight: 500;
-    justify-content: center;
-    color: #232323;
-    background-color: #F1EEE4;
-    padding: 15px 20px;
-    text-transform: uppercase;
-    gap: 8px;
-    border-radius: 10px;
+    margin-bottom: 3rem;
 }
 
 .row-2 {
@@ -1218,16 +878,11 @@ h6 {
 
 
 .made-from-nature {
-    position: absolute;
     bottom: -45px;
-    font-family: Gelica;
-    font-weight: 600;
     font-size: 24px;
     line-height: 32px;
-    border: 1px solid #F1EEE4;
     padding: 35px 20px;
     background-color: #fff;
-    border-radius: 20px;
 }
 
 /* 2nd Product Section */
@@ -1243,30 +898,14 @@ h6 {
 
 /* GO wild Section */
 .go-wild-buttons {
-    display: flex;
     gap: 1rem;
-    justify-content: center;
-    align-items: center;
 
-}
-
-.img-text-container {
-    position: relative;
 }
 
 .get-started-deodorant,
 .get-started-body-wash {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 5px;
+    gap: 0.5rem;
     background-color: #1D7F75;
-    font-size: 15px;
-    line-height: 20px;
-    color: white;
-    font-family: FaturaPt;
-    text-transform: uppercase;
-    font-weight: 500;
     padding: 19px 19px;
     border-radius: 10px;
 }
@@ -1279,7 +918,6 @@ h6 {
 /* Trust Pilot 2 section */
 
 .flex-flow-2 {
-    display: flex;
     gap: 2rem;
     margin-bottom: 10rem;
     padding: 0 70px;
@@ -1308,26 +946,20 @@ h6 {
     margin: 0 0 8px;
 }
 
-.col-1 {
-    display: flex;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-}
 
 .excellent-2 {
     margin: 10px 0 10px 0;
 }
+.based-on{
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    gap: 5px;
 
-.based-on,
-.based {
-    font-family: FaturaPt;
-    font-weight: 300;
-    color: #000000;
-    white-space: nowrap;
 }
-
+.underline{
+    text-decoration: underline;
+}
 .based {
     margin-left: 0;
     text-decoration: underline;

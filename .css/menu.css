@@ -98,21 +98,7 @@
     width: 64px;
     border-radius: 10px;
 }
-
-.menu-heading-row {
-    font-size: 18px;
-    line-height: 22px;
-    color: #232323;
-    font-family: FaturaPt;
-    font-weight: 500;
-}
-
-.menu-heading-row-1 {
-    color: white;
-}
-
 .menu-row-1 {
-    position: relative;
     color: #000000;
     text-decoration: none;
     font-family: FaturaPt;
