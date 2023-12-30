@@ -97,6 +97,19 @@
 }
 
 @media screen and (max-width: 800px) {
+    .bundle-main {
+        padding: 0;
+    }
+
+    .product-bucket{
+        margin-left: 0 !important;
+        width: 100% !important;
+    }
+
+    .left-aligner {
+        padding: 0 !important;
+        bottom: 1px !important;
+    }
     .wild-logo {
         transform: none;
     }
@@ -115,7 +128,8 @@
         transform: translate(-50%);
         column-gap: 0.9rem;
         row-gap: 4.5rem;
-        margin-bottom: 4.5rem;
+        margin-bottom: 11.5rem;
+        padding: 0 15px;
     }
 
     .limited-edition {
@@ -158,6 +172,7 @@
         text-align: center;
     }
 
+    .card-content-2,
     .card-content {
         width: 100%;
         margin: 2.5rem 0;
@@ -177,7 +192,20 @@
     .bamboo-refills {
         padding: 1rem;
     }
+
+    .grid-flow-2 {
+        grid-template-columns: 1fr !important;
+    }
+
+    .grid-flow-2 .row-1 {
+        margin: 3rem 0 3rem 0;
+        width: 100%;
+    }
+    .purple-img{
+        width: 80vw;
+    }
 }
+
 
 @media screen and (max-width: 600px) {
     .bundle-imgs {
@@ -196,19 +224,19 @@
     }
 
     .shopping-cards {
-        margin-bottom: 5.5rem;
-        row-gap: 5.5rem;
+        margin-bottom: 11.5rem;
+        row-gap: 10.5rem;
     }
 
 }
 
 @media screen and (max-width: 400px) {
     .bundle-imgs {
-        width: 44vw;
+        width: 41vw;
     }
 
     .shopping-cards {
-        left: 45%;
+        left: 50%;
     }
 
     .all-btn,
@@ -314,10 +342,6 @@
 
     .display-none-550px {
         display: none;
-    }
-
-    .shopping-cards {
-        margin-left: 0.55rem;
     }
 }
 

@@ -45,10 +45,12 @@
     font-size: 22px;
     line-height: 32px;
 }
-.p-1-5{
+
+.p-1-5 {
     font-size: 20px;
     line-height: 32px;
 }
+
 .p-2 {
     font-size: 18px;
     line-height: 28px;
@@ -164,7 +166,8 @@
 .flex {
     display: flex;
 }
-.flex-start{
+
+.flex-start {
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
@@ -175,10 +178,12 @@
     justify-content: center;
     align-items: center;
 }
-.flex-space-between{
+
+.flex-space-between {
     display: flex;
     justify-content: space-between;
 }
+
 .flex-column {
     display: flex;
     flex-direction: column;
@@ -226,7 +231,7 @@
     flex-wrap: wrap;
 }
 
-.overflow-hidded {
+.overflow-hidden {
     overflow: hidden;
 }
 
@@ -237,7 +242,12 @@
 .main-border {
     border: 1px solid #F1EEE4;
 }
-.display-none{
+
+.main-border-2px {
+    border: 2px solid #F1EEE4;
+}
+
+.display-none {
     display: none;
 }
 
@@ -269,6 +279,13 @@
     width: 239px;
     left: -19.5%;
     top: -90%;
+}
+
+.orange-refill {
+    position: absolute;
+    width: 271px;
+    left: -22.5%;
+    top: -54%;
 }
 
 /* Button Hover Styling */
