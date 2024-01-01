@@ -700,6 +700,7 @@ h6 {
     background-color: #F1EEE4;
     padding: 20px 25px;
     gap: 8px;
+    width: max-content;
 }
 
 /* Buying Section */
