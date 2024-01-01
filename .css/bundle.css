@@ -219,3 +219,9 @@
 .seperator-2-bundle {
     bottom: 27%;
 }
+.ham-opener:checked + .ham-menu{
+    display: flex;
+}
+.ham-opener:checked *{
+    display: none;
+}

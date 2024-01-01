@@ -1210,3 +1210,9 @@ h6 {
     bottom: 35%;
     width: 178vw;
 }
+.ham-opener:checked + .ham-menu{
+    display: flex;
+}
+.ham-opener:checked *{
+    display: none;
+}
