@@ -4,28 +4,13 @@
 @import url(bundle-rwd.css);
 @import url(menu.css);
 
-body {
-
-    display: flex;
-    flex-direction: column;
-   align-items: center;
-}
-
-
-.navbar {
+.bundle-main {
     margin-top: 47px;
-    position: relative;
-    justify-content: space-between;
+    padding: 0 17px;
 }
 
 .flex-item-2 {
-    position: absolute;
     right: 10px;
-    display: flex;
-}
-
-.navbar-ul img {
-    color: black;
 }
 
 .navbar-ul {
@@ -36,10 +21,6 @@ body {
     margin-left: 5px;
 }
 
-.navbar-a {
-    color: rgb(0, 0, 0);
-    height: none;
-}
 
 .nav-get-started-btn {
     margin: 0;
@@ -54,9 +35,8 @@ body {
     transform: translate(-50%, -50%) scale(1.1);
 
 }
-
-.navbar-cart-button {
-    position: relative;
+.bundle-buttons button{
+    margin: 0;
 }
 
 .bxs-tv::before {
@@ -80,11 +60,6 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     transition: all 0.2s ease;
-}
-
-
-.navbar-user-button {
-    position: relative;
 }
 
 .bxs-user::before {
@@ -112,11 +87,9 @@ body {
 
 
 .nav-menu-button {
-    display: none;
     background-color: #F1EEE4;
     width: 39px;
     height: 39px;
-    color: #232323;
     border-radius: 100vw;
     margin-right: 1rem;
 }
@@ -129,47 +102,17 @@ body {
     padding: 11px 26px;
 }
 
-.bundle-heading {
-    font-size: 88px;
-    line-height: 96px;
-    color: #232323;
-    font-family: Gelica;
-    font-weight: 400;
-}
-
-header {
-    text-align: center;
-}
-
-.all-btn,
-.body-wash-button-2,
-.deodorant-btn {
-    font-size: 15px;
-    line-height: 20px;
-    font-family: FaturaPt;
-    font-weight: 500;
-
-}
-
 
 
 .flex-flow-4 {
-    display: flex;
-    flex-direction: column;
     gap: 4rem;
 }
 
 .all-btn,
 .body-wash-button-2,
 .deodorant-btn {
-    font-size: 15px;
-    line-height: 20px;
-    font-family: FaturaPt;
-    font-weight: 500;
-    text-transform: uppercase;
     padding: 10px 16px;
     border-radius: 7px;
-    margin: 0;
 }
 
 .all-btn {
@@ -186,26 +129,17 @@ header {
 }
 
 .bundle-buttons {
-    display: flex;
-    justify-content: center;
     gap: 0.6rem;
 }
 
 .bundle-para {
-    font-size: 20px;
-    line-height: 32px;
-    color: #4f4f4f;
-    font-family: FaturaPt;
-    font-weight: 400;
     margin-top: 2rem;
+    white-space: normal !important;
 }
 
 .bundle-container {
     gap: 3rem;
-    display: flex;
-    flex-direction: column;
     margin-bottom: 3rem;
-    position: relative;
 }
 
 .bundle-cards {
@@ -222,11 +156,9 @@ header {
 .shopping-card {
     width: min-content;
     height: 400px;
-    cursor: pointer;
 }
 
 .shopping-cards {
-    padding: 0;
     gap: 2.2em;
     margin-bottom: 3rem;
 }
@@ -239,31 +171,10 @@ header {
     left: -12%;
 }
 
-.card-heading {
-    font-size: 38px;
-    line-height: 48px;
-    color: #000000;
-    font-family: Gelica;
-    font-weight: 600;
-    text-align: center;
-}
-
-.card-para-bundle {
-    font-size: 18px;
-    line-height: 28px;
-    color: #4f4f4f;
-    font-family: FaturaPt;
-    font-weight: Light;
-    text-align: center;
-}
-
 .card-content {
-    display: flex;
     gap: 1rem;
-    flex-direction: column;
     margin: 0 7.38rem;
-    white-space: nowrap;
-    align-items: center;
+    justify-content: flex-start;
 }
 
 .sold-out {
@@ -272,70 +183,30 @@ header {
 }
 
 .card-tag {
-    font-size: 11px;
-    line-height: 17px;
-    text-align: center;
-    color: #232323;
-    font-family: FaturaPt;
-    font-weight: 500;
-    background-color: white;
-    border: 2px solid #F1EEE4;
-    display: flex;
-    justify-content: center;
     margin: 0 65px;
-    padding: 2px 1px;
+    padding: 2px 4px;
     border-radius: 5px;
-}
-
-.bundle-get-started-btn {
-    font-size: 15px;
-    line-height: 20px;
-    font-family: FaturaPt;
-    background-color: #1D7F75;
-    color: white;
-    padding: 18px 25px;
-    text-align: center;
-    display: flex;
-    align-items: center;
-    gap: 7px;
-    border-radius: 10px;
-    z-index: 11;
-    perspective: 100px;
-    font-weight: 500;
-    text-transform: uppercase;
-    margin-top: 0.5rem;
 }
 
 
 /* Need Refills Section */
 
-
-.need-refills-section {
-    display: flex;
-    gap: 3rem;
-    flex-direction: column;
-    margin-top: 10rem;
-    margin-bottom: 8rem;
+.planet-heading{
+    width: min-content;
 }
 
 .need-refills-section {
+    gap: 3rem;
+    margin-top: 10rem;
+    margin-bottom: 8rem;
     padding-bottom: 10rem;
 }
 
 .need-refills {
     right: 570px;
 }
-
-.need-refills-text {
-    color: black;
-}
-
 .need-refills-btn {
     padding: 18px 25px;
-}
-
-.all-shopping-cards {
-    position: relative;
 }
 
 .fa-plus::before {
@@ -344,4 +215,7 @@ header {
     top: 49%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+.seperator-2-bundle {
+    bottom: 27%;
 }

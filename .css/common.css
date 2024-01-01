@@ -40,6 +40,253 @@
     font-weight: 700;
 }
 
+/* Fonts Styling */
+.p-1 {
+    font-size: 22px;
+    line-height: 32px;
+}
+
+.p-1-5 {
+    font-size: 20px;
+    line-height: 32px;
+}
+
+.p-2 {
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.p-3 {
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.p-4 {
+    font-size: 15px;
+    line-height: 24px;
+}
+
+.p-5 {
+    font-size: 11px;
+    line-height: 16px;
+}
+
+.h-1 {
+    font-size: 88px;
+    line-height: 96px;
+}
+
+.h-2 {
+    font-size: 84px;
+    line-height: 91px;
+}
+
+.h-3 {
+    font-size: 74px;
+    line-height: 85px;
+}
+
+.h-5 {
+    font-size: 38px;
+    line-height: 48px;
+}
+
+.h-6 {
+    font-size: 24px;
+    line-height: 32px;
+}
+
+.h-7 {
+    font-size: 22px;
+    line-height: 22px;
+
+}
+
+.letter-spacing {
+    letter-spacing: 0.3px;
+}
+
+.font-1-300 {
+    font-family: FaturaPt;
+    font-weight: 300;
+}
+
+.font-1-400 {
+    font-family: FaturaPt;
+    font-weight: 400;
+}
+
+.font-1-500 {
+    font-family: FaturaPt;
+    font-weight: 500;
+}
+
+.font-1-700 {
+    font-family: FaturaPt;
+    font-weight: 700;
+}
+
+.font-2-600 {
+    font-family: Gelica;
+    font-weight: 600;
+}
+
+.font-2-700 {
+    font-family: Gelica;
+    font-weight: 700;
+}
+
+.fs-anchors {
+    font-size: 15px;
+    line-height: 24px;
+}
+
+.font-color-black-light {
+    color: #232323;
+}
+
+.font-color-black-extra-light {
+    color: #4f4f4f;
+}
+
+.font-color-white {
+    color: white;
+}
+
+/* Utillity Classes */
+.grid {
+    display: grid;
+}
+
+.grid-center {
+    display: grid;
+    place-items: center;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-start {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-space-between {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-column-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.border-radius-20px {
+    border-radius: 20px;
+}
+
+.no-wrap {
+    white-space: nowrap;
+}
+
+.upper-case {
+    text-transform: uppercase;
+}
+
+.absolute-center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.position-relative-1 {
+    position: relative;
+}
+
+.position-absolute-1 {
+    position: absolute;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.overflow-hidden {
+    overflow: hidden;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.main-border {
+    border: 1px solid #F1EEE4;
+}
+
+.main-border-2px {
+    border: 2px solid #F1EEE4;
+}
+
+.display-none {
+    display: none;
+}
+
+/* Refills images */
+
+.planet-refill-1 {
+    position: absolute;
+    width: 270px;
+    left: -24.5%;
+    top: -61%;
+}
+
+.planet-refill-2 {
+    position: absolute;
+    width: 270px;
+    left: -27.5%;
+    top: -140%;
+}
+
+.planet-refill-3 {
+    position: absolute;
+    width: 271px;
+    left: -32.5%;
+    top: -123%;
+}
+
+.planet-refill-4 {
+    position: absolute;
+    width: 239px;
+    left: -19.5%;
+    top: -90%;
+}
+
+.orange-refill {
+    position: absolute;
+    width: 271px;
+    left: -22.5%;
+    top: -54%;
+}
 
 /* Button Hover Styling */
 

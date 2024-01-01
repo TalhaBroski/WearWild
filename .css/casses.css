@@ -3,45 +3,20 @@
     margin: 0;
     gap: 1.5rem;
 }
-
-.card-heading {
-    color: #232323;
-}
-
 .flex-flow-6 {
-    display: flex;
     gap: 9rem;
-    align-items: center;
     margin: 2rem;
     margin-bottom: 12rem;
 }
 
 .flex-flow-6-row-2 {
     gap: 1rem;
-    display: flex;
-    flex-direction: column;
 }
 
 .sweat-security-img {
     width: 511px;
     border-radius: 17px;
 }
-
-.row-2-heading {
-    font-size: 22px;
-    line-height: 32px;
-    font-family: FaturaPt;
-    font-weight: 700;
-}
-
-.row-2-Para {
-    font-size: 20px;
-    line-height: 32px;
-    font-family: FaturaPt;
-    font-weight: 400;
-    color: #333333;
-}
-
 .width-200px {
     width: 200px;
 }

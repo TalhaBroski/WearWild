@@ -539,6 +539,7 @@
 
     .responsive-24-px {
         font-size: 24px;
+        line-height: 1.5;
     }
 
     .shopping-section {
@@ -596,7 +597,7 @@
     }
 
     .shopping-cards {
-        padding: 0px 12px;
+        padding: 0;
         gap: 0.5rem;
 
     }
@@ -607,7 +608,6 @@
 
     .limited-edition,
     .new-in {
-        font-weight: 300;
         font-size: 8px;
     }
 
