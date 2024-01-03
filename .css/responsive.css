@@ -68,6 +68,7 @@
 
     }
 
+
     .planet-refill-4 {
         position: absolute;
         width: 271px;
@@ -490,6 +491,9 @@
     .planet-refill {
         width: 150px;
     }
+    .planet-refill-bottle {
+        width: 70px;
+    }
 
     .positioning-div {
         position: static;
@@ -701,6 +705,9 @@
 
     .planet-refill {
         width: 98px;
+    }
+    .planet-refill-bottle {
+        width: 50px;
     }
 
     .row-2 {
