@@ -250,6 +250,13 @@
 .display-none {
     display: none;
 }
+.small-card-content{
+    width: 300px;
+    padding: 0 1.5rem;
+}
+.margin-0{
+    margin: 0;
+}
 
 /* Refills images */
 
@@ -278,6 +285,12 @@
     position: absolute;
     width: 239px;
     left: -19.5%;
+    top: -90%;
+}
+.planet-refill-5{
+    position: absolute;
+    width: 239px;
+    left: -22.5%;
     top: -90%;
 }
 

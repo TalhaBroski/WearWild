@@ -211,9 +211,14 @@
     .purple-img {
         width: 80vw;
     }
-    .compostable-div{
+
+    .compostable-div {
         flex-direction: column;
         margin: 0 0 10rem 0;
+    }
+
+    .planet-refill-bottle {
+        width: 115px;
     }
 }
 
@@ -271,7 +276,14 @@
 
 @media screen and (max-width: 1150px) {
     .flex-flow-6 {
-        gap: 4rem;
+        gap: 4rem !important;
+    }
+
+    .flex-flow-6 br {
+        display: none;
+    }
+    .ingredients-section{
+        padding: 3rem !important;
     }
 }
 
@@ -299,6 +311,23 @@
     .nav-menu-button {
         bottom: -17px;
     }
+    .ingredients-section{
+     gap: 2rem !important;
+    }
+    
+    .why-switch{
+        font-size: 24px;
+        line-height: 32px;
+    }
+    .why-switch-para,
+    .why-switch-para span {
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .why-switch-img{
+        width: 40vw;
+    }
+    
 }
 
 @media screen and (max-width: 800px) {
@@ -363,6 +392,7 @@
 @media screen and (max-width: 600px) {
     .flex-flow-6 {
         flex-direction: column;
+        gap: 2rem !important;
     }
 
     .flex-flow-6-row-2 {
@@ -374,6 +404,6 @@
     }
 
     .sweat-security-img {
-        width: 100%;
+        width: 100% !important;
     }
 }
