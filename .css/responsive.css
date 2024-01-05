@@ -751,5 +751,8 @@
     .shopping-img {
         width: 13vw;
     }
+    .navbar-li br{
+        display: none;
+    }
 
 }

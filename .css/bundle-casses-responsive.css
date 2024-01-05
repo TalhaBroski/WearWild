@@ -1,8 +1,6 @@
 @media screen and (max-width:1980px) {
     .shopping-cards {
         justify-content: flex-start;
-        left: 60%;
-        transform: translate(-50%);
         position: relative;
     }
 
@@ -10,6 +8,13 @@
         width: 10vw;
     }
 
+    .large-product-imgs {
+        width: 20vw ;
+    }
+
+    .large-shopping-cards {
+        margin-bottom: 15vw;
+    }
 
 }
 
@@ -18,11 +23,6 @@
     .shopping-img {
         width: 13vw;
     }
-
-    .shopping-cards {
-        left: 50%;
-    }
-
 }
 
 
@@ -34,8 +34,7 @@
     }
 
     .shopping-cards {
-        left: 48%;
-        justify-content: flex-start;
+        justify-content: center;
     }
 
 }
@@ -48,18 +47,15 @@
     }
 
     .flex-flow-4 {
-        padding: 0 70px;
+        padding: 0;
     }
 
     .shopping-cards {
         gap: 1.8em;
-        transform: translateX(10px);
         justify-content: flex-start;
         flex-wrap: wrap;
-        margin-bottom: auto;
-        margin-bottom: 4rem;
-        row-gap: 4rem;
-    }
+        padding: 0 20px;
+        }
 }
 
 @media screen and (max-width: 1200px) {
@@ -76,7 +72,6 @@
         flex-wrap: wrap;
         margin-bottom: auto;
         margin-bottom: 4rem;
-        row-gap: 4rem;
     }
 
     .product-name,
@@ -87,6 +82,9 @@
 
     .responsive-div-for-bundle {
         display: flex;
+    }
+    .large-product-imgs {
+        width: 27.5vw ;
     }
 }
 
@@ -220,6 +218,16 @@
     .planet-refill-bottle {
         width: 115px;
     }
+
+    .large-product-imgs {
+        width: 46.5vw 
+    }
+    .large-shopping-cards{
+       row-gap: 30vw;
+       padding: 0 !important;
+       justify-content: center;
+    }
+
 }
 
 
@@ -282,7 +290,8 @@
     .flex-flow-6 br {
         display: none;
     }
-    .ingredients-section{
+
+    .ingredients-section {
         padding: 3rem !important;
     }
 }
@@ -311,23 +320,26 @@
     .nav-menu-button {
         bottom: -17px;
     }
-    .ingredients-section{
-     gap: 2rem !important;
+
+    .ingredients-section {
+        gap: 2rem !important;
     }
-    
-    .why-switch{
+
+    .why-switch {
         font-size: 24px;
         line-height: 32px;
     }
+
     .why-switch-para,
     .why-switch-para span {
         font-size: 18px;
         line-height: 28px;
     }
-    .why-switch-img{
+
+    .why-switch-img {
         width: 40vw;
     }
-    
+
 }
 
 @media screen and (max-width: 800px) {
@@ -386,6 +398,12 @@
 
     .display-none-550px {
         display: none;
+    }
+    .large-product-imgs {
+        width: 65.5vw 
+    }
+    .large-shopping-cards{
+       row-gap: 50vw;
     }
 }
 
