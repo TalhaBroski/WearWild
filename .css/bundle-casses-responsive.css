@@ -211,6 +211,10 @@
     .purple-img {
         width: 80vw;
     }
+    .compostable-div{
+        flex-direction: column;
+        margin: 0 0 10rem 0;
+    }
 }
 
 

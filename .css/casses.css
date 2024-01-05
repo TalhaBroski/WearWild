@@ -24,3 +24,19 @@
 .cases-btns {
     padding: 18px 22px;
 }
+.compostable-cards{
+    display: flex; 
+    flex-direction: column;
+    text-align: start;   
+}
+.product-tag{
+    background-color: white;
+    width: max-content;
+    border-radius: 5px;
+    padding: 3px;
+}
+.compostable-div{
+    gap: 6rem;
+    align-items: flex-start;
+    margin: 0 7rem 13rem 0;
+}
