@@ -33,6 +33,58 @@
 
 }
 
+.menu-checkbox-2:checked+.navbar-a+.nav-menu * {
+    opacity: 0;
+    animation: opacity 0.3s ease forwards;
+    animation-delay: 0.3s;
+}
+
+.menu-checkbox-2:checked+.navbar-a+.nav-menu {
+    display: flex;
+    animation: menu-opening 0.4s;
+
+}
+
+
+.menu-checkbox-2:checked+.navbar-a .bxs-chevron-down::before {
+    content: "\ed42";
+
+}
+.menu-checkbox-3:checked+.navbar-a+.nav-menu * {
+    opacity: 0;
+    animation: opacity 0.3s ease forwards;
+    animation-delay: 0.3s;
+}
+
+.menu-checkbox-3:checked+.navbar-a+.nav-menu {
+    display: flex;
+    animation: menu-opening 0.4s;
+
+}
+
+
+.menu-checkbox-3:checked+.navbar-a .bxs-chevron-down::before {
+    content: "\ed42";
+
+}
+.menu-checkbox-4:checked+.navbar-a+.nav-menu * {
+    opacity: 0;
+    animation: opacity 0.3s ease forwards;
+    animation-delay: 0.3s;
+}
+
+.menu-checkbox-4:checked+.navbar-a+.nav-menu {
+    display: flex;
+    animation: menu-opening 0.4s;
+
+}
+
+
+.menu-checkbox-4:checked+.navbar-a .bxs-chevron-down::before {
+    content: "\ed42";
+
+}
+
 .nav-arrow {
     margin-left: 5px;
 }
@@ -152,13 +204,14 @@
     margin: 0;
     border-radius: 0;
     position: fixed;
-    height: 100vh;
-    top: 35px;
+    height: auto;
+    top: 0;
     bottom: 0;
     z-index: 99999;
-    transform: translateX(-15px);
+
     animation: ham-opening 0.45s linear forwards ;
     transform-origin: top;
+    overflow: scroll;
 }
 
 .ham-menu *{
@@ -181,8 +234,11 @@
 .ham-rows {
     gap: 3rem;
 }
+.ham-menu {
+    padding-top: 6.1rem;
+}
 
-.ham-menu-row-2::before {
+.menu-row-2::before {
     background-color: #FE208D;
 }
 
@@ -229,4 +285,14 @@
         transform: scaleX(1);
         transform: scaleY(1);
     }
+}
+.menu-row{
+    transition: all 0.25s ease;
+}
+.menu-row:hover {
+    background-color: rgba(0, 0, 0, 0.041);
+    border-radius: 10px;
+}
+.navbar-li{
+    z-index: 999999;
 }

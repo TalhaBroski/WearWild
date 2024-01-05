@@ -113,7 +113,7 @@ button {
 
 .main-page-main {
     background-image: url(../assets/Images/MainBc.png);
-    min-height: 85vh;
+    height: 100vh;
     background-repeat: no-repeat;
     border-bottom-left-radius: 25px;
     border-bottom-right-radius: 20px;
@@ -389,7 +389,7 @@ span {
 .trust-pilot-cards {
     display: flex;
     padding: 0px 70px;
-    background-color: white;
+
     gap: 1rem;
 
 }
@@ -401,6 +401,7 @@ span {
     border: 2px solid #F1EEE4;
     flex-basis: 255px;
     flex-shrink: 0;
+    background-color: white;
 }
 
 .card-para {
@@ -780,6 +781,9 @@ h6 {
     margin-bottom: 10rem;
     gap: 0.9rem;
 
+}
+.shopping-cards-main{
+    margin-left: 3rem;
 }
 
 .shopping-card {
@@ -1217,6 +1221,10 @@ h6 {
 }
 .ham-opener:checked + .ham-menu{
     display: flex;
+}
+
+.ham-opener:checked  body{
+    overflow: hidden
 }
 .ham-opener:checked *{
     display: none;
