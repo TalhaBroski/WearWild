@@ -2,6 +2,9 @@
     .bundle-main {
         padding: 0 6px;
     }
+    .navbar-ul{
+        gap: 15px !important;
+    }
 
 }
 
@@ -771,6 +774,10 @@
 
     .navbar-li br {
         display: none;
+    }
+    .navbar{
+        padding: 0 2rem;
+
     }
 
 }
