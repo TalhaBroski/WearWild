@@ -1233,3 +1233,10 @@ h6 {
 .ham-opener:checked *{
     display: none;
 }
+@media screen and (min-width: 950px) {
+    .ham-menu{
+        display: none !important;
+        transform: translateX(-15px) !important;
+    }
+    
+}
