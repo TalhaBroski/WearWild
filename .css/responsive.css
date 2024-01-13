@@ -58,6 +58,9 @@
     .footer-col-2 {
         margin-top: 4rem;
     }
+    .aricle-question-cont {
+        grid-column: span 6;
+     }
 }
 
 @media screen and (max-width: 950px) {
