@@ -24,6 +24,7 @@
 .article-blog>* {
    margin: 0;
    width: 620px;
+   padding: 0;
 }
 
 .article {
@@ -94,6 +95,7 @@
 .faqs-navbar .logo {
    width: 120px;
 }
+
 .nav-bar-faq,
 .faqs-navbar-anchor-2,
 .faqs-navbar-anchor {
@@ -217,13 +219,23 @@
    right: 4rem;
 }
 
-.Faq-opener:checked + .faq-nav-row-2 {
+.Faq-opener:checked+.faq-nav-row-2 {
    display: none;
 }
 
+.faq-nav-row-2 {
+   display: none;
+}
 
 @media screen and (max-width: 1200px) {
    .question-box {
       grid-column: span 3;
    }
+}
+
+@media screen and (min-width: 750px) {
+   .faq-nav-row-2 {
+      display: none !important;
+   }
+
 }
