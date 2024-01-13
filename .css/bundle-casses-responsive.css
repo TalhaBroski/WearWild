@@ -11,7 +11,9 @@
     .large-product-imgs {
         width: 20vw ;
     }
-
+    .extra-large-product-imgs {
+        width: 44vw ;
+    }
     .large-shopping-cards {
         margin-bottom: 15vw;
     }
@@ -221,6 +223,9 @@
 
     .large-product-imgs {
         width: 46.5vw 
+    }
+    .extra-large-product-imgs {
+        width: 80vw ;
     }
     .large-shopping-cards{
        row-gap: 30vw;
