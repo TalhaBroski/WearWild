@@ -18,7 +18,7 @@ git clone git@github.com:TalhaTahir-09/WearWild.git
 
 2. **Open in Browser:**
 - Navigate to the project folder: `cd WearWild`
-- Double click on `main.html` to open it in a web browser.
+- Double click on `index.html` to open it in a web browser.
 
 ## Contact
 
