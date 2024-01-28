@@ -480,7 +480,9 @@
         transform: translateX(-50%);
 
     }
-
+    .overflow-scroll{
+        overflow: scroll;
+    }
 
     .footer-checkbox {
         display: none;
@@ -784,3 +786,22 @@
     }
 
 }
+@media only screen and (max-width:767px) {
+    .page-id-337 #av_section_1 .av_one_fifth.avia-builder-el-6, 
+    .page-id-337 #av_section_1 .av_one_fifth.avia-builder-el-9 {
+      float: left !important;
+      width: 50% !important;
+      padding-top: 10px !important;
+    }
+  
+    #top.page-id-337 #av_section_1 .av_one_fifth.avia-builder-el-6 img, 
+    #top.page-id-337 #av_section_1 .av_one_fifth.avia-builder-el-9 img {
+      padding-left: 10% !important;
+      padding-right: 10% !important;
+      max-width: 160px !important;
+    }
+  
+    .page-id-337 #av_section_1 .av_one_fifth.avia-builder-el-8 {
+      display: none;
+    }
+  }
