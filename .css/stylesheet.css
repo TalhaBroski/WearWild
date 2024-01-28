@@ -710,13 +710,13 @@ h6 {
     padding-bottom: 8rem;
     gap: 1rem;
     padding: 0 70px;
+    overflow: scroll;
 }
 
 .shopping-card {
     transition: all 0.5s ease;
     display: grid;
 }
-
 .scroller {
     justify-self: right;
 }
@@ -1221,7 +1221,7 @@ h6 {
     left: -20%;
     right: 0;
     bottom: 35%;
-    width: 178vw;
+    width: 100vw;
 }
 .ham-opener:checked + .ham-menu{
     display: flex;
